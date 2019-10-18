@@ -1,0 +1,37 @@
+pandas.compat package
+=====================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.compat.numpy
+
+Submodules
+----------
+
+pandas.compat.chainmap module
+-----------------------------
+
+.. automodule:: pandas.compat.chainmap
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.compat.pickle\_compat module
+-----------------------------------
+
+.. automodule:: pandas.compat.pickle_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.compat
+   :members:
+   :undoc-members:
+   :show-inheritance:

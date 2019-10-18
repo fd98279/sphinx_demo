@@ -1,0 +1,166 @@
+pandas.tests.util package
+=========================
+
+Submodules
+----------
+
+pandas.tests.util.conftest module
+---------------------------------
+
+.. automodule:: pandas.tests.util.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_almost\_equal module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_almost_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_categorical\_equal module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_categorical_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_extension\_array\_equal module
+--------------------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_extension_array_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_frame\_equal module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_frame_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_index\_equal module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_index_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_interval\_array\_equal module
+-------------------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_interval_array_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_numpy\_array\_equal module
+----------------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_numpy_array_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_produces\_warning module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_produces_warning
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_assert\_series\_equal module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_assert_series_equal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_deprecate module
+----------------------------------------
+
+.. automodule:: pandas.tests.util.test_deprecate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_deprecate\_kwarg module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.util.test_deprecate_kwarg
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_hashing module
+--------------------------------------
+
+.. automodule:: pandas.tests.util.test_hashing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_move module
+-----------------------------------
+
+.. automodule:: pandas.tests.util.test_move
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_safe\_import module
+-------------------------------------------
+
+.. automodule:: pandas.tests.util.test_safe_import
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_util module
+-----------------------------------
+
+.. automodule:: pandas.tests.util.test_util
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_validate\_args module
+---------------------------------------------
+
+.. automodule:: pandas.tests.util.test_validate_args
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_validate\_args\_and\_kwargs module
+----------------------------------------------------------
+
+.. automodule:: pandas.tests.util.test_validate_args_and_kwargs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.util.test\_validate\_kwargs module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.util.test_validate_kwargs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.util
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,38 @@
+pandas.core.tools package
+=========================
+
+Submodules
+----------
+
+pandas.core.tools.datetimes module
+----------------------------------
+
+.. automodule:: pandas.core.tools.datetimes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.tools.numeric module
+--------------------------------
+
+.. automodule:: pandas.core.tools.numeric
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.tools.timedeltas module
+-----------------------------------
+
+.. automodule:: pandas.core.tools.timedeltas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:

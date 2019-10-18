@@ -1,0 +1,118 @@
+pandas.core.indexes package
+===========================
+
+Submodules
+----------
+
+pandas.core.indexes.accessors module
+------------------------------------
+
+.. automodule:: pandas.core.indexes.accessors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.api module
+------------------------------
+
+.. automodule:: pandas.core.indexes.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.base module
+-------------------------------
+
+.. automodule:: pandas.core.indexes.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.category module
+-----------------------------------
+
+.. automodule:: pandas.core.indexes.category
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.datetimelike module
+---------------------------------------
+
+.. automodule:: pandas.core.indexes.datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.datetimes module
+------------------------------------
+
+.. automodule:: pandas.core.indexes.datetimes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.frozen module
+---------------------------------
+
+.. automodule:: pandas.core.indexes.frozen
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.interval module
+-----------------------------------
+
+.. automodule:: pandas.core.indexes.interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.multi module
+--------------------------------
+
+.. automodule:: pandas.core.indexes.multi
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.numeric module
+----------------------------------
+
+.. automodule:: pandas.core.indexes.numeric
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.period module
+---------------------------------
+
+.. automodule:: pandas.core.indexes.period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.range module
+--------------------------------
+
+.. automodule:: pandas.core.indexes.range
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexes.timedeltas module
+-------------------------------------
+
+.. automodule:: pandas.core.indexes.timedeltas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.indexes
+   :members:
+   :undoc-members:
+   :show-inheritance:

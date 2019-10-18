@@ -1,0 +1,38 @@
+pandas.tests.groupby.aggregate package
+======================================
+
+Submodules
+----------
+
+pandas.tests.groupby.aggregate.test\_aggregate module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.groupby.aggregate.test_aggregate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.aggregate.test\_cython module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.groupby.aggregate.test_cython
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.aggregate.test\_other module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.groupby.aggregate.test_other
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.groupby.aggregate
+   :members:
+   :undoc-members:
+   :show-inheritance:

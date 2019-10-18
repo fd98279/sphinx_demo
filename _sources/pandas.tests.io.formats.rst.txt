@@ -1,0 +1,94 @@
+pandas.tests.io.formats package
+===============================
+
+Submodules
+----------
+
+pandas.tests.io.formats.test\_console module
+--------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_console
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_css module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_css
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_eng\_formatting module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_eng_formatting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_format module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_format
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_printing module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_printing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_style module
+------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_style
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_to\_csv module
+--------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_to_csv
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_to\_excel module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_to_excel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_to\_html module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_to_html
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.formats.test\_to\_latex module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.formats.test_to_latex
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.formats
+   :members:
+   :undoc-members:
+   :show-inheritance:

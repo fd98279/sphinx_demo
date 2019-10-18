@@ -1,0 +1,85 @@
+pandas.tests.reshape package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.reshape.merge
+
+Submodules
+----------
+
+pandas.tests.reshape.test\_concat module
+----------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_cut module
+-------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_cut
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_melt module
+--------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_melt
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_pivot module
+---------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_pivot
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_qcut module
+--------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_qcut
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_reshape module
+-----------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_reshape
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_union\_categoricals module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_union_categoricals
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reshape.test\_util module
+--------------------------------------
+
+.. automodule:: pandas.tests.reshape.test_util
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.reshape
+   :members:
+   :undoc-members:
+   :show-inheritance:

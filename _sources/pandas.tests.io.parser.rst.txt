@@ -1,0 +1,190 @@
+pandas.tests.io.parser package
+==============================
+
+Submodules
+----------
+
+pandas.tests.io.parser.conftest module
+--------------------------------------
+
+.. automodule:: pandas.tests.io.parser.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_c\_parser\_only module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_c_parser_only
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_comment module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_comment
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_common module
+------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_compression module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_compression
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_converters module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_converters
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_dialect module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_dialect
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_dtypes module
+------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_header module
+------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_header
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_index\_col module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_index_col
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_mangle\_dupes module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_mangle_dupes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_multi\_thread module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_multi_thread
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_na\_values module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_na_values
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_network module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_network
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_parse\_dates module
+------------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_parse_dates
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_python\_parser\_only module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_python_parser_only
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_quoting module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_quoting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_read\_fwf module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_read_fwf
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_skiprows module
+--------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_skiprows
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_textreader module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_textreader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_unsupported module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_unsupported
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.parser.test\_usecols module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.parser.test_usecols
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.parser
+   :members:
+   :undoc-members:
+   :show-inheritance:

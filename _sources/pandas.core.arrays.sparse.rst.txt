@@ -1,0 +1,46 @@
+pandas.core.arrays.sparse package
+=================================
+
+Submodules
+----------
+
+pandas.core.arrays.sparse.accessor module
+-----------------------------------------
+
+.. automodule:: pandas.core.arrays.sparse.accessor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.sparse.array module
+--------------------------------------
+
+.. automodule:: pandas.core.arrays.sparse.array
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.sparse.dtype module
+--------------------------------------
+
+.. automodule:: pandas.core.arrays.sparse.dtype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.sparse.scipy\_sparse module
+----------------------------------------------
+
+.. automodule:: pandas.core.arrays.sparse.scipy_sparse
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.arrays.sparse
+   :members:
+   :undoc-members:
+   :show-inheritance:

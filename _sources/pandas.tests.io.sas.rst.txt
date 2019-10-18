@@ -1,0 +1,38 @@
+pandas.tests.io.sas package
+===========================
+
+Submodules
+----------
+
+pandas.tests.io.sas.test\_sas module
+------------------------------------
+
+.. automodule:: pandas.tests.io.sas.test_sas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.sas.test\_sas7bdat module
+-----------------------------------------
+
+.. automodule:: pandas.tests.io.sas.test_sas7bdat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.sas.test\_xport module
+--------------------------------------
+
+.. automodule:: pandas.tests.io.sas.test_xport
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.sas
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,70 @@
+pandas.tests.io.json package
+============================
+
+Submodules
+----------
+
+pandas.tests.io.json.conftest module
+------------------------------------
+
+.. automodule:: pandas.tests.io.json.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.json.test\_compression module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.json.test_compression
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.json.test\_json\_table\_schema module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.io.json.test_json_table_schema
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.json.test\_normalize module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.json.test_normalize
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.json.test\_pandas module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.json.test_pandas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.json.test\_readlines module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.json.test_readlines
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.json.test\_ujson module
+---------------------------------------
+
+.. automodule:: pandas.tests.io.json.test_ujson
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.json
+   :members:
+   :undoc-members:
+   :show-inheritance:

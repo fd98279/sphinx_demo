@@ -1,0 +1,78 @@
+pandas.tests.resample package
+=============================
+
+Submodules
+----------
+
+pandas.tests.resample.conftest module
+-------------------------------------
+
+.. automodule:: pandas.tests.resample.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_base module
+---------------------------------------
+
+.. automodule:: pandas.tests.resample.test_base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_datetime\_index module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.resample.test_datetime_index
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_period\_index module
+------------------------------------------------
+
+.. automodule:: pandas.tests.resample.test_period_index
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_resample\_api module
+------------------------------------------------
+
+.. automodule:: pandas.tests.resample.test_resample_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_resampler\_grouper module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.resample.test_resampler_grouper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_time\_grouper module
+------------------------------------------------
+
+.. automodule:: pandas.tests.resample.test_time_grouper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.resample.test\_timedelta module
+--------------------------------------------
+
+.. automodule:: pandas.tests.resample.test_timedelta
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.resample
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,62 @@
+pandas.tseries package
+======================
+
+Submodules
+----------
+
+pandas.tseries.api module
+-------------------------
+
+.. automodule:: pandas.tseries.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tseries.converter module
+-------------------------------
+
+.. automodule:: pandas.tseries.converter
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tseries.frequencies module
+---------------------------------
+
+.. automodule:: pandas.tseries.frequencies
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tseries.holiday module
+-----------------------------
+
+.. automodule:: pandas.tseries.holiday
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tseries.offsets module
+-----------------------------
+
+.. automodule:: pandas.tseries.offsets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tseries.plotting module
+------------------------------
+
+.. automodule:: pandas.tseries.plotting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tseries
+   :members:
+   :undoc-members:
+   :show-inheritance:

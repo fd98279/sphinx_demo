@@ -1,0 +1,22 @@
+pandas.tests.internals package
+==============================
+
+Submodules
+----------
+
+pandas.tests.internals.test\_internals module
+---------------------------------------------
+
+.. automodule:: pandas.tests.internals.test_internals
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.internals
+   :members:
+   :undoc-members:
+   :show-inheritance:

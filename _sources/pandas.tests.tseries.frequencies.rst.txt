@@ -1,0 +1,38 @@
+pandas.tests.tseries.frequencies package
+========================================
+
+Submodules
+----------
+
+pandas.tests.tseries.frequencies.test\_freq\_code module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.frequencies.test_freq_code
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.frequencies.test\_inference module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.frequencies.test_inference
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.frequencies.test\_to\_offset module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.frequencies.test_to_offset
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.tseries.frequencies
+   :members:
+   :undoc-members:
+   :show-inheritance:

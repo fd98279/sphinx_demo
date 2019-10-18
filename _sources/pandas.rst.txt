@@ -1,0 +1,46 @@
+pandas package
+==============
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.api
+   pandas.arrays
+   pandas.compat
+   pandas.core
+   pandas.errors
+   pandas.io
+   pandas.plotting
+   pandas.tests
+   pandas.tseries
+   pandas.util
+
+Submodules
+----------
+
+pandas.conftest module
+----------------------
+
+.. automodule:: pandas.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.testing module
+---------------------
+
+.. automodule:: pandas.testing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas
+   :members:
+   :undoc-members:
+   :show-inheritance:

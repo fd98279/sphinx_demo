@@ -1,0 +1,113 @@
+pandas.tests.extension package
+==============================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.extension.arrow
+   pandas.tests.extension.base
+   pandas.tests.extension.decimal
+   pandas.tests.extension.json
+   pandas.tests.extension.list
+
+Submodules
+----------
+
+pandas.tests.extension.conftest module
+--------------------------------------
+
+.. automodule:: pandas.tests.extension.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_categorical module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_categorical
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_common module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_datetime module
+--------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_datetime
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_external\_block module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_external_block
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_integer module
+-------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_integer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_interval module
+--------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_numpy module
+-----------------------------------------
+
+.. automodule:: pandas.tests.extension.test_numpy
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_period module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_sparse module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_sparse
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.test\_string module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.test_string
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.extension
+   :members:
+   :undoc-members:
+   :show-inheritance:

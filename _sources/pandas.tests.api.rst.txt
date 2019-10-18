@@ -1,0 +1,30 @@
+pandas.tests.api package
+========================
+
+Submodules
+----------
+
+pandas.tests.api.test\_api module
+---------------------------------
+
+.. automodule:: pandas.tests.api.test_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.api.test\_types module
+-----------------------------------
+
+.. automodule:: pandas.tests.api.test_types
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.api
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,1299 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>pandas package &#8212; SphinxTest 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="pandas.api package" href="pandas.api.html" />
+    <link rel="prev" title="pandas" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="pandas.api.html" title="pandas.api package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="pandas"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">SphinxTest 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pandas-package">
+<h1>pandas package<a class="headerlink" href="#pandas-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pandas.api.html">pandas.api package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.api.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pandas.api.extensions.html">pandas.api.extensions package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.api.extensions.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.api.types.html">pandas.api.types package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.api.types.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.api.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.arrays.html">pandas.arrays package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.arrays.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.compat.html">pandas.compat package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.compat.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pandas.compat.numpy.html">pandas.compat.numpy package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.compat.numpy.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.compat.numpy.html#pandas-compat-numpy-function-module">pandas.compat.numpy.function module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.compat.numpy.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.compat.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.compat.html#pandas-compat-chainmap-module">pandas.compat.chainmap module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.compat.html#pandas-compat-pickle-compat-module">pandas.compat.pickle_compat module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.compat.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.core.html">pandas.core package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.arrays.html">pandas.core.arrays package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.core.arrays.sparse.html">pandas.core.arrays.sparse package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.core.arrays.sparse.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.core.arrays.sparse.html#pandas-core-arrays-sparse-accessor-module">pandas.core.arrays.sparse.accessor module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.core.arrays.sparse.html#pandas-core-arrays-sparse-array-module">pandas.core.arrays.sparse.array module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.core.arrays.sparse.html#pandas-core-arrays-sparse-dtype-module">pandas.core.arrays.sparse.dtype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.core.arrays.sparse.html#pandas-core-arrays-sparse-scipy-sparse-module">pandas.core.arrays.sparse.scipy_sparse module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.core.arrays.sparse.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-base-module">pandas.core.arrays.base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-categorical-module">pandas.core.arrays.categorical module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-datetimelike-module">pandas.core.arrays.datetimelike module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-datetimes-module">pandas.core.arrays.datetimes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-integer-module">pandas.core.arrays.integer module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-interval-module">pandas.core.arrays.interval module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-numpy-module">pandas.core.arrays.numpy_ module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-period-module">pandas.core.arrays.period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-string-module">pandas.core.arrays.string_ module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#pandas-core-arrays-timedeltas-module">pandas.core.arrays.timedeltas module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.arrays.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.computation.html">pandas.core.computation package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-align-module">pandas.core.computation.align module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-api-module">pandas.core.computation.api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-check-module">pandas.core.computation.check module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-common-module">pandas.core.computation.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-engines-module">pandas.core.computation.engines module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-eval-module">pandas.core.computation.eval module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-expr-module">pandas.core.computation.expr module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-expressions-module">pandas.core.computation.expressions module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-ops-module">pandas.core.computation.ops module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-pytables-module">pandas.core.computation.pytables module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#pandas-core-computation-scope-module">pandas.core.computation.scope module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.computation.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.dtypes.html">pandas.core.dtypes package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-api-module">pandas.core.dtypes.api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-base-module">pandas.core.dtypes.base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-cast-module">pandas.core.dtypes.cast module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-common-module">pandas.core.dtypes.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-concat-module">pandas.core.dtypes.concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-dtypes-module">pandas.core.dtypes.dtypes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-generic-module">pandas.core.dtypes.generic module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-inference-module">pandas.core.dtypes.inference module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#pandas-core-dtypes-missing-module">pandas.core.dtypes.missing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.dtypes.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.groupby.html">pandas.core.groupby package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#pandas-core-groupby-base-module">pandas.core.groupby.base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#pandas-core-groupby-categorical-module">pandas.core.groupby.categorical module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#pandas-core-groupby-generic-module">pandas.core.groupby.generic module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#pandas-core-groupby-groupby-module">pandas.core.groupby.groupby module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#pandas-core-groupby-grouper-module">pandas.core.groupby.grouper module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#pandas-core-groupby-ops-module">pandas.core.groupby.ops module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.groupby.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.indexes.html">pandas.core.indexes package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-accessors-module">pandas.core.indexes.accessors module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-api-module">pandas.core.indexes.api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-base-module">pandas.core.indexes.base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-category-module">pandas.core.indexes.category module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-datetimelike-module">pandas.core.indexes.datetimelike module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-datetimes-module">pandas.core.indexes.datetimes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-frozen-module">pandas.core.indexes.frozen module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-interval-module">pandas.core.indexes.interval module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-multi-module">pandas.core.indexes.multi module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-numeric-module">pandas.core.indexes.numeric module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-period-module">pandas.core.indexes.period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-range-module">pandas.core.indexes.range module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#pandas-core-indexes-timedeltas-module">pandas.core.indexes.timedeltas module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.indexes.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.internals.html">pandas.core.internals package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.internals.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.internals.html#pandas-core-internals-blocks-module">pandas.core.internals.blocks module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.internals.html#pandas-core-internals-concat-module">pandas.core.internals.concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.internals.html#pandas-core-internals-construction-module">pandas.core.internals.construction module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.internals.html#pandas-core-internals-managers-module">pandas.core.internals.managers module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.internals.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.ops.html">pandas.core.ops package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-array-ops-module">pandas.core.ops.array_ops module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-dispatch-module">pandas.core.ops.dispatch module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-docstrings-module">pandas.core.ops.docstrings module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-invalid-module">pandas.core.ops.invalid module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-methods-module">pandas.core.ops.methods module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-missing-module">pandas.core.ops.missing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#pandas-core-ops-roperator-module">pandas.core.ops.roperator module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.ops.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.reshape.html">pandas.core.reshape package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-api-module">pandas.core.reshape.api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-concat-module">pandas.core.reshape.concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-melt-module">pandas.core.reshape.melt module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-merge-module">pandas.core.reshape.merge module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-pivot-module">pandas.core.reshape.pivot module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-reshape-module">pandas.core.reshape.reshape module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-tile-module">pandas.core.reshape.tile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#pandas-core-reshape-util-module">pandas.core.reshape.util module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.reshape.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.sparse.html">pandas.core.sparse package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.sparse.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.sparse.html#pandas-core-sparse-api-module">pandas.core.sparse.api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.sparse.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.tools.html">pandas.core.tools package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.tools.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.tools.html#pandas-core-tools-datetimes-module">pandas.core.tools.datetimes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.tools.html#pandas-core-tools-numeric-module">pandas.core.tools.numeric module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.tools.html#pandas-core-tools-timedeltas-module">pandas.core.tools.timedeltas module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.tools.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.util.html">pandas.core.util package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.util.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.util.html#pandas-core-util-hashing-module">pandas.core.util.hashing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.util.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.core.window.html">pandas.core.window package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.window.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.window.html#pandas-core-window-common-module">pandas.core.window.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.window.html#pandas-core-window-ewm-module">pandas.core.window.ewm module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.window.html#pandas-core-window-expanding-module">pandas.core.window.expanding module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.window.html#pandas-core-window-rolling-module">pandas.core.window.rolling module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.core.window.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-accessor-module">pandas.core.accessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-algorithms-module">pandas.core.algorithms module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-api-module">pandas.core.api module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-apply-module">pandas.core.apply module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-base-module">pandas.core.base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-common-module">pandas.core.common module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-config-init-module">pandas.core.config_init module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-construction-module">pandas.core.construction module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-frame-module">pandas.core.frame module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-generic-module">pandas.core.generic module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-index-module">pandas.core.index module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-indexers-module">pandas.core.indexers module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-indexing-module">pandas.core.indexing module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-missing-module">pandas.core.missing module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-nanops-module">pandas.core.nanops module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-resample-module">pandas.core.resample module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-series-module">pandas.core.series module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-sorting-module">pandas.core.sorting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#pandas-core-strings-module">pandas.core.strings module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.core.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.errors.html">pandas.errors package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.errors.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.io.html">pandas.io package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pandas.io.clipboard.html">pandas.io.clipboard package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.clipboard.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.clipboard.html#pandas-io-clipboard-clipboards-module">pandas.io.clipboard.clipboards module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.clipboard.html#pandas-io-clipboard-exceptions-module">pandas.io.clipboard.exceptions module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.clipboard.html#pandas-io-clipboard-windows-module">pandas.io.clipboard.windows module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.clipboard.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.io.excel.html">pandas.io.excel package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.excel.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.io.formats.html">pandas.io.formats package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-console-module">pandas.io.formats.console module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-css-module">pandas.io.formats.css module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-csvs-module">pandas.io.formats.csvs module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-excel-module">pandas.io.formats.excel module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-format-module">pandas.io.formats.format module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-html-module">pandas.io.formats.html module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-latex-module">pandas.io.formats.latex module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-printing-module">pandas.io.formats.printing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#pandas-io-formats-style-module">pandas.io.formats.style module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.formats.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.io.json.html">pandas.io.json package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.json.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.io.msgpack.html">pandas.io.msgpack package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.msgpack.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.msgpack.html#pandas-io-msgpack-exceptions-module">pandas.io.msgpack.exceptions module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.msgpack.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.io.sas.html">pandas.io.sas package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#pandas-io-sas-sas-module">pandas.io.sas.sas module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#pandas-io-sas-sas7bdat-module">pandas.io.sas.sas7bdat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#pandas-io-sas-sas-constants-module">pandas.io.sas.sas_constants module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#pandas-io-sas-sas-xport-module">pandas.io.sas.sas_xport module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#pandas-io-sas-sasreader-module">pandas.io.sas.sasreader module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.io.sas.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-api-module">pandas.io.api module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-clipboards-module">pandas.io.clipboards module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-common-module">pandas.io.common module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-date-converters-module">pandas.io.date_converters module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-feather-format-module">pandas.io.feather_format module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-gbq-module">pandas.io.gbq module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-gcs-module">pandas.io.gcs module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-html-module">pandas.io.html module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-packers-module">pandas.io.packers module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-parquet-module">pandas.io.parquet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-parsers-module">pandas.io.parsers module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-pickle-module">pandas.io.pickle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-pytables-module">pandas.io.pytables module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-s3-module">pandas.io.s3 module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-spss-module">pandas.io.spss module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-sql-module">pandas.io.sql module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#pandas-io-stata-module">pandas.io.stata module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.io.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.plotting.html">pandas.plotting package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.plotting.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.tests.html">pandas.tests package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.api.html">pandas.tests.api package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.api.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.api.html#pandas-tests-api-test-api-module">pandas.tests.api.test_api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.api.html#pandas-tests-api-test-types-module">pandas.tests.api.test_types module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.api.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.arithmetic.html">pandas.tests.arithmetic package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#pandas-tests-arithmetic-conftest-module">pandas.tests.arithmetic.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#pandas-tests-arithmetic-test-datetime64-module">pandas.tests.arithmetic.test_datetime64 module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#pandas-tests-arithmetic-test-numeric-module">pandas.tests.arithmetic.test_numeric module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#pandas-tests-arithmetic-test-object-module">pandas.tests.arithmetic.test_object module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#pandas-tests-arithmetic-test-period-module">pandas.tests.arithmetic.test_period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#pandas-tests-arithmetic-test-timedelta64-module">pandas.tests.arithmetic.test_timedelta64 module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arithmetic.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.arrays.html">pandas.tests.arrays package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.arrays.categorical.html">pandas.tests.arrays.categorical package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-common-module">pandas.tests.arrays.categorical.common module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-conftest-module">pandas.tests.arrays.categorical.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-algos-module">pandas.tests.arrays.categorical.test_algos module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-analytics-module">pandas.tests.arrays.categorical.test_analytics module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-api-module">pandas.tests.arrays.categorical.test_api module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-constructors-module">pandas.tests.arrays.categorical.test_constructors module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-dtypes-module">pandas.tests.arrays.categorical.test_dtypes module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-indexing-module">pandas.tests.arrays.categorical.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-missing-module">pandas.tests.arrays.categorical.test_missing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-operators-module">pandas.tests.arrays.categorical.test_operators module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-repr-module">pandas.tests.arrays.categorical.test_repr module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-sorting-module">pandas.tests.arrays.categorical.test_sorting module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-subclass-module">pandas.tests.arrays.categorical.test_subclass module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#pandas-tests-arrays-categorical-test-warnings-module">pandas.tests.arrays.categorical.test_warnings module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.categorical.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.arrays.interval.html">pandas.tests.arrays.interval package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.interval.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.interval.html#pandas-tests-arrays-interval-test-interval-module">pandas.tests.arrays.interval.test_interval module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.interval.html#pandas-tests-arrays-interval-test-ops-module">pandas.tests.arrays.interval.test_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.interval.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.arrays.sparse.html">pandas.tests.arrays.sparse package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#pandas-tests-arrays-sparse-test-accessor-module">pandas.tests.arrays.sparse.test_accessor module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#pandas-tests-arrays-sparse-test-arithmetics-module">pandas.tests.arrays.sparse.test_arithmetics module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#pandas-tests-arrays-sparse-test-array-module">pandas.tests.arrays.sparse.test_array module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#pandas-tests-arrays-sparse-test-combine-concat-module">pandas.tests.arrays.sparse.test_combine_concat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#pandas-tests-arrays-sparse-test-dtype-module">pandas.tests.arrays.sparse.test_dtype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#pandas-tests-arrays-sparse-test-libsparse-module">pandas.tests.arrays.sparse.test_libsparse module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.sparse.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.arrays.string_.html">pandas.tests.arrays.string_ package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.string_.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.string_.html#pandas-tests-arrays-string-test-string-module">pandas.tests.arrays.string_.test_string module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.arrays.string_.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-array-module">pandas.tests.arrays.test_array module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-datetimelike-module">pandas.tests.arrays.test_datetimelike module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-datetimes-module">pandas.tests.arrays.test_datetimes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-integer-module">pandas.tests.arrays.test_integer module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-numpy-module">pandas.tests.arrays.test_numpy module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-period-module">pandas.tests.arrays.test_period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#pandas-tests-arrays-test-timedeltas-module">pandas.tests.arrays.test_timedeltas module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.arrays.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.computation.html">pandas.tests.computation package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.computation.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.computation.html#pandas-tests-computation-test-compat-module">pandas.tests.computation.test_compat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.computation.html#pandas-tests-computation-test-eval-module">pandas.tests.computation.test_eval module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.computation.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.config.html">pandas.tests.config package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.config.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.config.html#pandas-tests-config-test-config-module">pandas.tests.config.test_config module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.config.html#pandas-tests-config-test-localization-module">pandas.tests.config.test_localization module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.config.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.dtypes.html">pandas.tests.dtypes package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.dtypes.cast.html">pandas.tests.dtypes.cast package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-construct-from-scalar-module">pandas.tests.dtypes.cast.test_construct_from_scalar module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-construct-ndarray-module">pandas.tests.dtypes.cast.test_construct_ndarray module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-construct-object-arr-module">pandas.tests.dtypes.cast.test_construct_object_arr module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-convert-objects-module">pandas.tests.dtypes.cast.test_convert_objects module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-downcast-module">pandas.tests.dtypes.cast.test_downcast module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-find-common-type-module">pandas.tests.dtypes.cast.test_find_common_type module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-infer-datetimelike-module">pandas.tests.dtypes.cast.test_infer_datetimelike module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-infer-dtype-module">pandas.tests.dtypes.cast.test_infer_dtype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-promote-module">pandas.tests.dtypes.cast.test_promote module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#pandas-tests-dtypes-cast-test-upcast-module">pandas.tests.dtypes.cast.test_upcast module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.dtypes.cast.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#pandas-tests-dtypes-test-common-module">pandas.tests.dtypes.test_common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#pandas-tests-dtypes-test-concat-module">pandas.tests.dtypes.test_concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#pandas-tests-dtypes-test-dtypes-module">pandas.tests.dtypes.test_dtypes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#pandas-tests-dtypes-test-generic-module">pandas.tests.dtypes.test_generic module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#pandas-tests-dtypes-test-inference-module">pandas.tests.dtypes.test_inference module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#pandas-tests-dtypes-test-missing-module">pandas.tests.dtypes.test_missing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.dtypes.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.extension.html">pandas.tests.extension package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.extension.arrow.html">pandas.tests.extension.arrow package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.arrow.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.arrow.html#pandas-tests-extension-arrow-arrays-module">pandas.tests.extension.arrow.arrays module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.arrow.html#pandas-tests-extension-arrow-test-bool-module">pandas.tests.extension.arrow.test_bool module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.arrow.html#pandas-tests-extension-arrow-test-string-module">pandas.tests.extension.arrow.test_string module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.arrow.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.extension.base.html">pandas.tests.extension.base package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-base-module">pandas.tests.extension.base.base module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-casting-module">pandas.tests.extension.base.casting module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-constructors-module">pandas.tests.extension.base.constructors module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-dtype-module">pandas.tests.extension.base.dtype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-getitem-module">pandas.tests.extension.base.getitem module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-groupby-module">pandas.tests.extension.base.groupby module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-interface-module">pandas.tests.extension.base.interface module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-io-module">pandas.tests.extension.base.io module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-methods-module">pandas.tests.extension.base.methods module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-missing-module">pandas.tests.extension.base.missing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-ops-module">pandas.tests.extension.base.ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-printing-module">pandas.tests.extension.base.printing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-reduce-module">pandas.tests.extension.base.reduce module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-reshaping-module">pandas.tests.extension.base.reshaping module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#pandas-tests-extension-base-setitem-module">pandas.tests.extension.base.setitem module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.base.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.extension.decimal.html">pandas.tests.extension.decimal package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.decimal.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.decimal.html#pandas-tests-extension-decimal-array-module">pandas.tests.extension.decimal.array module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.decimal.html#pandas-tests-extension-decimal-test-decimal-module">pandas.tests.extension.decimal.test_decimal module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.decimal.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.extension.json.html">pandas.tests.extension.json package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.json.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.json.html#pandas-tests-extension-json-array-module">pandas.tests.extension.json.array module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.json.html#pandas-tests-extension-json-test-json-module">pandas.tests.extension.json.test_json module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.json.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.extension.list.html">pandas.tests.extension.list package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.list.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.list.html#pandas-tests-extension-list-array-module">pandas.tests.extension.list.array module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.list.html#pandas-tests-extension-list-test-list-module">pandas.tests.extension.list.test_list module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.extension.list.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-conftest-module">pandas.tests.extension.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-categorical-module">pandas.tests.extension.test_categorical module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-common-module">pandas.tests.extension.test_common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-datetime-module">pandas.tests.extension.test_datetime module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-external-block-module">pandas.tests.extension.test_external_block module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-integer-module">pandas.tests.extension.test_integer module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-interval-module">pandas.tests.extension.test_interval module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-numpy-module">pandas.tests.extension.test_numpy module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-period-module">pandas.tests.extension.test_period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-sparse-module">pandas.tests.extension.test_sparse module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#pandas-tests-extension-test-string-module">pandas.tests.extension.test_string module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.extension.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.frame.html">pandas.tests.frame package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-common-module">pandas.tests.frame.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-conftest-module">pandas.tests.frame.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-alter-axes-module">pandas.tests.frame.test_alter_axes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-analytics-module">pandas.tests.frame.test_analytics module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-api-module">pandas.tests.frame.test_api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-apply-module">pandas.tests.frame.test_apply module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-arithmetic-module">pandas.tests.frame.test_arithmetic module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-asof-module">pandas.tests.frame.test_asof module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-axis-select-reindex-module">pandas.tests.frame.test_axis_select_reindex module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-block-internals-module">pandas.tests.frame.test_block_internals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-combine-concat-module">pandas.tests.frame.test_combine_concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-constructors-module">pandas.tests.frame.test_constructors module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-convert-to-module">pandas.tests.frame.test_convert_to module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-dtypes-module">pandas.tests.frame.test_dtypes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-duplicates-module">pandas.tests.frame.test_duplicates module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-explode-module">pandas.tests.frame.test_explode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-indexing-module">pandas.tests.frame.test_indexing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-join-module">pandas.tests.frame.test_join module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-missing-module">pandas.tests.frame.test_missing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-mutate-columns-module">pandas.tests.frame.test_mutate_columns module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-nonunique-indexes-module">pandas.tests.frame.test_nonunique_indexes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-operators-module">pandas.tests.frame.test_operators module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-period-module">pandas.tests.frame.test_period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-quantile-module">pandas.tests.frame.test_quantile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-query-eval-module">pandas.tests.frame.test_query_eval module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-rank-module">pandas.tests.frame.test_rank module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-replace-module">pandas.tests.frame.test_replace module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-repr-info-module">pandas.tests.frame.test_repr_info module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-reshape-module">pandas.tests.frame.test_reshape module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-sort-values-level-as-str-module">pandas.tests.frame.test_sort_values_level_as_str module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-sorting-module">pandas.tests.frame.test_sorting module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-subclass-module">pandas.tests.frame.test_subclass module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-timeseries-module">pandas.tests.frame.test_timeseries module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-timezones-module">pandas.tests.frame.test_timezones module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-to-csv-module">pandas.tests.frame.test_to_csv module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#pandas-tests-frame-test-validate-module">pandas.tests.frame.test_validate module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.frame.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.generic.html">pandas.tests.generic package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.generic.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.generic.html#pandas-tests-generic-test-frame-module">pandas.tests.generic.test_frame module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.generic.html#pandas-tests-generic-test-generic-module">pandas.tests.generic.test_generic module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.generic.html#pandas-tests-generic-test-label-or-level-utils-module">pandas.tests.generic.test_label_or_level_utils module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.generic.html#pandas-tests-generic-test-series-module">pandas.tests.generic.test_series module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.generic.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.groupby.html">pandas.tests.groupby package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.groupby.aggregate.html">pandas.tests.groupby.aggregate package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.groupby.aggregate.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.groupby.aggregate.html#pandas-tests-groupby-aggregate-test-aggregate-module">pandas.tests.groupby.aggregate.test_aggregate module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.groupby.aggregate.html#pandas-tests-groupby-aggregate-test-cython-module">pandas.tests.groupby.aggregate.test_cython module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.groupby.aggregate.html#pandas-tests-groupby-aggregate-test-other-module">pandas.tests.groupby.aggregate.test_other module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.groupby.aggregate.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-conftest-module">pandas.tests.groupby.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-apply-module">pandas.tests.groupby.test_apply module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-bin-groupby-module">pandas.tests.groupby.test_bin_groupby module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-categorical-module">pandas.tests.groupby.test_categorical module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-counting-module">pandas.tests.groupby.test_counting module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-filters-module">pandas.tests.groupby.test_filters module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-function-module">pandas.tests.groupby.test_function module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-groupby-module">pandas.tests.groupby.test_groupby module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-grouping-module">pandas.tests.groupby.test_grouping module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-index-as-string-module">pandas.tests.groupby.test_index_as_string module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-nth-module">pandas.tests.groupby.test_nth module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-rank-module">pandas.tests.groupby.test_rank module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-timegrouper-module">pandas.tests.groupby.test_timegrouper module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-transform-module">pandas.tests.groupby.test_transform module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-value-counts-module">pandas.tests.groupby.test_value_counts module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#pandas-tests-groupby-test-whitelist-module">pandas.tests.groupby.test_whitelist module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.groupby.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.indexes.html">pandas.tests.indexes package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexes.datetimes.html">pandas.tests.indexes.datetimes package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-arithmetic-module">pandas.tests.indexes.datetimes.test_arithmetic module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-astype-module">pandas.tests.indexes.datetimes.test_astype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-construction-module">pandas.tests.indexes.datetimes.test_construction module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-date-range-module">pandas.tests.indexes.datetimes.test_date_range module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-datetime-module">pandas.tests.indexes.datetimes.test_datetime module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-datetimelike-module">pandas.tests.indexes.datetimes.test_datetimelike module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-formats-module">pandas.tests.indexes.datetimes.test_formats module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-indexing-module">pandas.tests.indexes.datetimes.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-misc-module">pandas.tests.indexes.datetimes.test_misc module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-missing-module">pandas.tests.indexes.datetimes.test_missing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-ops-module">pandas.tests.indexes.datetimes.test_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-partial-slicing-module">pandas.tests.indexes.datetimes.test_partial_slicing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-scalar-compat-module">pandas.tests.indexes.datetimes.test_scalar_compat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-setops-module">pandas.tests.indexes.datetimes.test_setops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-timezones-module">pandas.tests.indexes.datetimes.test_timezones module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#pandas-tests-indexes-datetimes-test-tools-module">pandas.tests.indexes.datetimes.test_tools module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.datetimes.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexes.interval.html">pandas.tests.indexes.interval package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-astype-module">pandas.tests.indexes.interval.test_astype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-base-module">pandas.tests.indexes.interval.test_base module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-construction-module">pandas.tests.indexes.interval.test_construction module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-formats-module">pandas.tests.indexes.interval.test_formats module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-indexing-module">pandas.tests.indexes.interval.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-interval-module">pandas.tests.indexes.interval.test_interval module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-interval-range-module">pandas.tests.indexes.interval.test_interval_range module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-interval-tree-module">pandas.tests.indexes.interval.test_interval_tree module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#pandas-tests-indexes-interval-test-setops-module">pandas.tests.indexes.interval.test_setops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.interval.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexes.multi.html">pandas.tests.indexes.multi package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-conftest-module">pandas.tests.indexes.multi.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-analytics-module">pandas.tests.indexes.multi.test_analytics module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-astype-module">pandas.tests.indexes.multi.test_astype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-compat-module">pandas.tests.indexes.multi.test_compat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-constructor-module">pandas.tests.indexes.multi.test_constructor module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-contains-module">pandas.tests.indexes.multi.test_contains module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-conversion-module">pandas.tests.indexes.multi.test_conversion module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-copy-module">pandas.tests.indexes.multi.test_copy module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-drop-module">pandas.tests.indexes.multi.test_drop module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-duplicates-module">pandas.tests.indexes.multi.test_duplicates module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-equivalence-module">pandas.tests.indexes.multi.test_equivalence module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-format-module">pandas.tests.indexes.multi.test_format module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-get-set-module">pandas.tests.indexes.multi.test_get_set module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-indexing-module">pandas.tests.indexes.multi.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-integrity-module">pandas.tests.indexes.multi.test_integrity module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-join-module">pandas.tests.indexes.multi.test_join module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-missing-module">pandas.tests.indexes.multi.test_missing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-monotonic-module">pandas.tests.indexes.multi.test_monotonic module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-names-module">pandas.tests.indexes.multi.test_names module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-partial-indexing-module">pandas.tests.indexes.multi.test_partial_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-reindex-module">pandas.tests.indexes.multi.test_reindex module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-reshape-module">pandas.tests.indexes.multi.test_reshape module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-set-ops-module">pandas.tests.indexes.multi.test_set_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#pandas-tests-indexes-multi-test-sorting-module">pandas.tests.indexes.multi.test_sorting module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.multi.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexes.period.html">pandas.tests.indexes.period package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-arithmetic-module">pandas.tests.indexes.period.test_arithmetic module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-asfreq-module">pandas.tests.indexes.period.test_asfreq module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-astype-module">pandas.tests.indexes.period.test_astype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-construction-module">pandas.tests.indexes.period.test_construction module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-formats-module">pandas.tests.indexes.period.test_formats module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-indexing-module">pandas.tests.indexes.period.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-ops-module">pandas.tests.indexes.period.test_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-partial-slicing-module">pandas.tests.indexes.period.test_partial_slicing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-period-module">pandas.tests.indexes.period.test_period module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-period-range-module">pandas.tests.indexes.period.test_period_range module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-scalar-compat-module">pandas.tests.indexes.period.test_scalar_compat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-setops-module">pandas.tests.indexes.period.test_setops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#pandas-tests-indexes-period-test-tools-module">pandas.tests.indexes.period.test_tools module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.period.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html">pandas.tests.indexes.timedeltas package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-arithmetic-module">pandas.tests.indexes.timedeltas.test_arithmetic module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-astype-module">pandas.tests.indexes.timedeltas.test_astype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-construction-module">pandas.tests.indexes.timedeltas.test_construction module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-formats-module">pandas.tests.indexes.timedeltas.test_formats module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-indexing-module">pandas.tests.indexes.timedeltas.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-ops-module">pandas.tests.indexes.timedeltas.test_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-partial-slicing-module">pandas.tests.indexes.timedeltas.test_partial_slicing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-scalar-compat-module">pandas.tests.indexes.timedeltas.test_scalar_compat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-setops-module">pandas.tests.indexes.timedeltas.test_setops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-timedelta-module">pandas.tests.indexes.timedeltas.test_timedelta module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-timedelta-range-module">pandas.tests.indexes.timedeltas.test_timedelta_range module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#pandas-tests-indexes-timedeltas-test-tools-module">pandas.tests.indexes.timedeltas.test_tools module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexes.timedeltas.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-common-module">pandas.tests.indexes.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-conftest-module">pandas.tests.indexes.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-datetimelike-module">pandas.tests.indexes.datetimelike module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-base-module">pandas.tests.indexes.test_base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-category-module">pandas.tests.indexes.test_category module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-common-module">pandas.tests.indexes.test_common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-frozen-module">pandas.tests.indexes.test_frozen module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-numeric-module">pandas.tests.indexes.test_numeric module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-numpy-compat-module">pandas.tests.indexes.test_numpy_compat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-range-module">pandas.tests.indexes.test_range module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#pandas-tests-indexes-test-setops-module">pandas.tests.indexes.test_setops module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexes.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.indexing.html">pandas.tests.indexing package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexing.interval.html">pandas.tests.indexing.interval package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.interval.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.interval.html#pandas-tests-indexing-interval-test-interval-module">pandas.tests.indexing.interval.test_interval module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.interval.html#pandas-tests-indexing-interval-test-interval-new-module">pandas.tests.indexing.interval.test_interval_new module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.interval.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.indexing.multiindex.html">pandas.tests.indexing.multiindex package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-conftest-module">pandas.tests.indexing.multiindex.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-chaining-and-caching-module">pandas.tests.indexing.multiindex.test_chaining_and_caching module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-datetime-module">pandas.tests.indexing.multiindex.test_datetime module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-getitem-module">pandas.tests.indexing.multiindex.test_getitem module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-iloc-module">pandas.tests.indexing.multiindex.test_iloc module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-indexing-slow-module">pandas.tests.indexing.multiindex.test_indexing_slow module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-ix-module">pandas.tests.indexing.multiindex.test_ix module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-loc-module">pandas.tests.indexing.multiindex.test_loc module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-multiindex-module">pandas.tests.indexing.multiindex.test_multiindex module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-partial-module">pandas.tests.indexing.multiindex.test_partial module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-set-ops-module">pandas.tests.indexing.multiindex.test_set_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-setitem-module">pandas.tests.indexing.multiindex.test_setitem module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-slice-module">pandas.tests.indexing.multiindex.test_slice module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-sorted-module">pandas.tests.indexing.multiindex.test_sorted module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#pandas-tests-indexing-multiindex-test-xs-module">pandas.tests.indexing.multiindex.test_xs module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.indexing.multiindex.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-common-module">pandas.tests.indexing.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-conftest-module">pandas.tests.indexing.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-callable-module">pandas.tests.indexing.test_callable module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-categorical-module">pandas.tests.indexing.test_categorical module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-chaining-and-caching-module">pandas.tests.indexing.test_chaining_and_caching module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-coercion-module">pandas.tests.indexing.test_coercion module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-datetime-module">pandas.tests.indexing.test_datetime module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-floats-module">pandas.tests.indexing.test_floats module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-iloc-module">pandas.tests.indexing.test_iloc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-indexing-module">pandas.tests.indexing.test_indexing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-indexing-engines-module">pandas.tests.indexing.test_indexing_engines module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-indexing-slow-module">pandas.tests.indexing.test_indexing_slow module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-ix-module">pandas.tests.indexing.test_ix module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-loc-module">pandas.tests.indexing.test_loc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-partial-module">pandas.tests.indexing.test_partial module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-scalar-module">pandas.tests.indexing.test_scalar module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#pandas-tests-indexing-test-timedelta-module">pandas.tests.indexing.test_timedelta module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.indexing.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.internals.html">pandas.tests.internals package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.internals.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.internals.html#pandas-tests-internals-test-internals-module">pandas.tests.internals.test_internals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.internals.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.io.html">pandas.tests.io package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.excel.html">pandas.tests.io.excel package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-conftest-module">pandas.tests.io.excel.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-odf-module">pandas.tests.io.excel.test_odf module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-openpyxl-module">pandas.tests.io.excel.test_openpyxl module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-readers-module">pandas.tests.io.excel.test_readers module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-style-module">pandas.tests.io.excel.test_style module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-writers-module">pandas.tests.io.excel.test_writers module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-xlrd-module">pandas.tests.io.excel.test_xlrd module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-xlsxwriter-module">pandas.tests.io.excel.test_xlsxwriter module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#pandas-tests-io-excel-test-xlwt-module">pandas.tests.io.excel.test_xlwt module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.excel.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.formats.html">pandas.tests.io.formats package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-console-module">pandas.tests.io.formats.test_console module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-css-module">pandas.tests.io.formats.test_css module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-eng-formatting-module">pandas.tests.io.formats.test_eng_formatting module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-format-module">pandas.tests.io.formats.test_format module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-printing-module">pandas.tests.io.formats.test_printing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-style-module">pandas.tests.io.formats.test_style module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-to-csv-module">pandas.tests.io.formats.test_to_csv module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-to-excel-module">pandas.tests.io.formats.test_to_excel module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-to-html-module">pandas.tests.io.formats.test_to_html module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#pandas-tests-io-formats-test-to-latex-module">pandas.tests.io.formats.test_to_latex module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.formats.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.json.html">pandas.tests.io.json package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-conftest-module">pandas.tests.io.json.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-test-compression-module">pandas.tests.io.json.test_compression module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-test-json-table-schema-module">pandas.tests.io.json.test_json_table_schema module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-test-normalize-module">pandas.tests.io.json.test_normalize module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-test-pandas-module">pandas.tests.io.json.test_pandas module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-test-readlines-module">pandas.tests.io.json.test_readlines module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#pandas-tests-io-json-test-ujson-module">pandas.tests.io.json.test_ujson module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.json.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.msgpack.html">pandas.tests.io.msgpack package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-common-module">pandas.tests.io.msgpack.common module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-buffer-module">pandas.tests.io.msgpack.test_buffer module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-case-module">pandas.tests.io.msgpack.test_case module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-except-module">pandas.tests.io.msgpack.test_except module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-extension-module">pandas.tests.io.msgpack.test_extension module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-format-module">pandas.tests.io.msgpack.test_format module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-limits-module">pandas.tests.io.msgpack.test_limits module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-newspec-module">pandas.tests.io.msgpack.test_newspec module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-obj-module">pandas.tests.io.msgpack.test_obj module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-pack-module">pandas.tests.io.msgpack.test_pack module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-read-size-module">pandas.tests.io.msgpack.test_read_size module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-seq-module">pandas.tests.io.msgpack.test_seq module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-sequnpack-module">pandas.tests.io.msgpack.test_sequnpack module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-subtype-module">pandas.tests.io.msgpack.test_subtype module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-unpack-module">pandas.tests.io.msgpack.test_unpack module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#pandas-tests-io-msgpack-test-unpack-raw-module">pandas.tests.io.msgpack.test_unpack_raw module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.msgpack.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.parser.html">pandas.tests.io.parser package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-conftest-module">pandas.tests.io.parser.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-c-parser-only-module">pandas.tests.io.parser.test_c_parser_only module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-comment-module">pandas.tests.io.parser.test_comment module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-common-module">pandas.tests.io.parser.test_common module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-compression-module">pandas.tests.io.parser.test_compression module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-converters-module">pandas.tests.io.parser.test_converters module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-dialect-module">pandas.tests.io.parser.test_dialect module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-dtypes-module">pandas.tests.io.parser.test_dtypes module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-header-module">pandas.tests.io.parser.test_header module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-index-col-module">pandas.tests.io.parser.test_index_col module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-mangle-dupes-module">pandas.tests.io.parser.test_mangle_dupes module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-multi-thread-module">pandas.tests.io.parser.test_multi_thread module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-na-values-module">pandas.tests.io.parser.test_na_values module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-network-module">pandas.tests.io.parser.test_network module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-parse-dates-module">pandas.tests.io.parser.test_parse_dates module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-python-parser-only-module">pandas.tests.io.parser.test_python_parser_only module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-quoting-module">pandas.tests.io.parser.test_quoting module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-read-fwf-module">pandas.tests.io.parser.test_read_fwf module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-skiprows-module">pandas.tests.io.parser.test_skiprows module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-textreader-module">pandas.tests.io.parser.test_textreader module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-unsupported-module">pandas.tests.io.parser.test_unsupported module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#pandas-tests-io-parser-test-usecols-module">pandas.tests.io.parser.test_usecols module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.parser.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.pytables.html">pandas.tests.io.pytables package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-common-module">pandas.tests.io.pytables.common module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-conftest-module">pandas.tests.io.pytables.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-test-compat-module">pandas.tests.io.pytables.test_compat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-test-complex-module">pandas.tests.io.pytables.test_complex module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-test-pytables-missing-module">pandas.tests.io.pytables.test_pytables_missing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-test-store-module">pandas.tests.io.pytables.test_store module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#pandas-tests-io-pytables-test-timezones-module">pandas.tests.io.pytables.test_timezones module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.pytables.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.io.sas.html">pandas.tests.io.sas package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.sas.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.sas.html#pandas-tests-io-sas-test-sas-module">pandas.tests.io.sas.test_sas module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.sas.html#pandas-tests-io-sas-test-sas7bdat-module">pandas.tests.io.sas.test_sas7bdat module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.sas.html#pandas-tests-io-sas-test-xport-module">pandas.tests.io.sas.test_xport module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.io.sas.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-conftest-module">pandas.tests.io.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-generate-legacy-storage-files-module">pandas.tests.io.generate_legacy_storage_files module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-clipboard-module">pandas.tests.io.test_clipboard module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-common-module">pandas.tests.io.test_common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-compression-module">pandas.tests.io.test_compression module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-date-converters-module">pandas.tests.io.test_date_converters module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-feather-module">pandas.tests.io.test_feather module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-gbq-module">pandas.tests.io.test_gbq module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-gcs-module">pandas.tests.io.test_gcs module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-html-module">pandas.tests.io.test_html module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-packers-module">pandas.tests.io.test_packers module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-parquet-module">pandas.tests.io.test_parquet module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-pickle-module">pandas.tests.io.test_pickle module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-s3-module">pandas.tests.io.test_s3 module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-spss-module">pandas.tests.io.test_spss module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-sql-module">pandas.tests.io.test_sql module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#pandas-tests-io-test-stata-module">pandas.tests.io.test_stata module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.io.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.plotting.html">pandas.tests.plotting package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-common-module">pandas.tests.plotting.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-backend-module">pandas.tests.plotting.test_backend module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-boxplot-method-module">pandas.tests.plotting.test_boxplot_method module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-converter-module">pandas.tests.plotting.test_converter module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-datetimelike-module">pandas.tests.plotting.test_datetimelike module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-frame-module">pandas.tests.plotting.test_frame module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-groupby-module">pandas.tests.plotting.test_groupby module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-hist-method-module">pandas.tests.plotting.test_hist_method module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-misc-module">pandas.tests.plotting.test_misc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#pandas-tests-plotting-test-series-module">pandas.tests.plotting.test_series module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.plotting.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.reductions.html">pandas.tests.reductions package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reductions.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reductions.html#pandas-tests-reductions-test-reductions-module">pandas.tests.reductions.test_reductions module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reductions.html#pandas-tests-reductions-test-stat-reductions-module">pandas.tests.reductions.test_stat_reductions module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reductions.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.resample.html">pandas.tests.resample package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-conftest-module">pandas.tests.resample.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-base-module">pandas.tests.resample.test_base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-datetime-index-module">pandas.tests.resample.test_datetime_index module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-period-index-module">pandas.tests.resample.test_period_index module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-resample-api-module">pandas.tests.resample.test_resample_api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-resampler-grouper-module">pandas.tests.resample.test_resampler_grouper module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-time-grouper-module">pandas.tests.resample.test_time_grouper module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#pandas-tests-resample-test-timedelta-module">pandas.tests.resample.test_timedelta module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.resample.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.reshape.html">pandas.tests.reshape package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.reshape.merge.html">pandas.tests.reshape.merge package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#pandas-tests-reshape-merge-test-join-module">pandas.tests.reshape.merge.test_join module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#pandas-tests-reshape-merge-test-merge-module">pandas.tests.reshape.merge.test_merge module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#pandas-tests-reshape-merge-test-merge-asof-module">pandas.tests.reshape.merge.test_merge_asof module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#pandas-tests-reshape-merge-test-merge-index-as-string-module">pandas.tests.reshape.merge.test_merge_index_as_string module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#pandas-tests-reshape-merge-test-merge-ordered-module">pandas.tests.reshape.merge.test_merge_ordered module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#pandas-tests-reshape-merge-test-multi-module">pandas.tests.reshape.merge.test_multi module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.reshape.merge.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-concat-module">pandas.tests.reshape.test_concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-cut-module">pandas.tests.reshape.test_cut module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-melt-module">pandas.tests.reshape.test_melt module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-pivot-module">pandas.tests.reshape.test_pivot module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-qcut-module">pandas.tests.reshape.test_qcut module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-reshape-module">pandas.tests.reshape.test_reshape module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-union-categoricals-module">pandas.tests.reshape.test_union_categoricals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#pandas-tests-reshape-test-util-module">pandas.tests.reshape.test_util module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.reshape.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.scalar.html">pandas.tests.scalar package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.scalar.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.scalar.interval.html">pandas.tests.scalar.interval package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.interval.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.interval.html#pandas-tests-scalar-interval-test-interval-module">pandas.tests.scalar.interval.test_interval module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.interval.html#pandas-tests-scalar-interval-test-ops-module">pandas.tests.scalar.interval.test_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.interval.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.scalar.period.html">pandas.tests.scalar.period package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.period.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.period.html#pandas-tests-scalar-period-test-asfreq-module">pandas.tests.scalar.period.test_asfreq module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.period.html#pandas-tests-scalar-period-test-period-module">pandas.tests.scalar.period.test_period module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.period.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.scalar.timedelta.html">pandas.tests.scalar.timedelta package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timedelta.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timedelta.html#pandas-tests-scalar-timedelta-test-arithmetic-module">pandas.tests.scalar.timedelta.test_arithmetic module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timedelta.html#pandas-tests-scalar-timedelta-test-construction-module">pandas.tests.scalar.timedelta.test_construction module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timedelta.html#pandas-tests-scalar-timedelta-test-formats-module">pandas.tests.scalar.timedelta.test_formats module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timedelta.html#pandas-tests-scalar-timedelta-test-timedelta-module">pandas.tests.scalar.timedelta.test_timedelta module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timedelta.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.scalar.timestamp.html">pandas.tests.scalar.timestamp package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#pandas-tests-scalar-timestamp-test-arithmetic-module">pandas.tests.scalar.timestamp.test_arithmetic module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#pandas-tests-scalar-timestamp-test-comparisons-module">pandas.tests.scalar.timestamp.test_comparisons module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#pandas-tests-scalar-timestamp-test-rendering-module">pandas.tests.scalar.timestamp.test_rendering module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#pandas-tests-scalar-timestamp-test-timestamp-module">pandas.tests.scalar.timestamp.test_timestamp module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#pandas-tests-scalar-timestamp-test-timezones-module">pandas.tests.scalar.timestamp.test_timezones module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#pandas-tests-scalar-timestamp-test-unary-ops-module">pandas.tests.scalar.timestamp.test_unary_ops module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.scalar.timestamp.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.scalar.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.scalar.html#pandas-tests-scalar-test-nat-module">pandas.tests.scalar.test_nat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.scalar.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.series.html">pandas.tests.series package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.series.indexing.html">pandas.tests.series.indexing package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-conftest-module">pandas.tests.series.indexing.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-alter-index-module">pandas.tests.series.indexing.test_alter_index module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-boolean-module">pandas.tests.series.indexing.test_boolean module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-callable-module">pandas.tests.series.indexing.test_callable module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-datetime-module">pandas.tests.series.indexing.test_datetime module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-iloc-module">pandas.tests.series.indexing.test_iloc module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-indexing-module">pandas.tests.series.indexing.test_indexing module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-loc-module">pandas.tests.series.indexing.test_loc module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#pandas-tests-series-indexing-test-numeric-module">pandas.tests.series.indexing.test_numeric module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.series.indexing.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-common-module">pandas.tests.series.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-conftest-module">pandas.tests.series.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-alter-axes-module">pandas.tests.series.test_alter_axes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-analytics-module">pandas.tests.series.test_analytics module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-api-module">pandas.tests.series.test_api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-apply-module">pandas.tests.series.test_apply module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-arithmetic-module">pandas.tests.series.test_arithmetic module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-asof-module">pandas.tests.series.test_asof module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-block-internals-module">pandas.tests.series.test_block_internals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-combine-concat-module">pandas.tests.series.test_combine_concat module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-constructors-module">pandas.tests.series.test_constructors module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-datetime-values-module">pandas.tests.series.test_datetime_values module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-dtypes-module">pandas.tests.series.test_dtypes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-duplicates-module">pandas.tests.series.test_duplicates module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-explode-module">pandas.tests.series.test_explode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-internals-module">pandas.tests.series.test_internals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-io-module">pandas.tests.series.test_io module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-missing-module">pandas.tests.series.test_missing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-operators-module">pandas.tests.series.test_operators module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-period-module">pandas.tests.series.test_period module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-quantile-module">pandas.tests.series.test_quantile module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-rank-module">pandas.tests.series.test_rank module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-replace-module">pandas.tests.series.test_replace module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-repr-module">pandas.tests.series.test_repr module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-sorting-module">pandas.tests.series.test_sorting module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-subclass-module">pandas.tests.series.test_subclass module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-timeseries-module">pandas.tests.series.test_timeseries module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-timezones-module">pandas.tests.series.test_timezones module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-ufunc-module">pandas.tests.series.test_ufunc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#pandas-tests-series-test-validate-module">pandas.tests.series.test_validate module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.series.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.tools.html">pandas.tests.tools package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tools.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tools.html#pandas-tests-tools-test-numeric-module">pandas.tests.tools.test_numeric module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tools.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.tseries.html">pandas.tests.tseries package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tseries.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.tseries.frequencies.html">pandas.tests.tseries.frequencies package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.frequencies.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.frequencies.html#pandas-tests-tseries-frequencies-test-freq-code-module">pandas.tests.tseries.frequencies.test_freq_code module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.frequencies.html#pandas-tests-tseries-frequencies-test-inference-module">pandas.tests.tseries.frequencies.test_inference module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.frequencies.html#pandas-tests-tseries-frequencies-test-to-offset-module">pandas.tests.tseries.frequencies.test_to_offset module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.frequencies.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.tseries.holiday.html">pandas.tests.tseries.holiday package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.holiday.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.holiday.html#pandas-tests-tseries-holiday-test-calendar-module">pandas.tests.tseries.holiday.test_calendar module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.holiday.html#pandas-tests-tseries-holiday-test-federal-module">pandas.tests.tseries.holiday.test_federal module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.holiday.html#pandas-tests-tseries-holiday-test-holiday-module">pandas.tests.tseries.holiday.test_holiday module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.holiday.html#pandas-tests-tseries-holiday-test-observance-module">pandas.tests.tseries.holiday.test_observance module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.holiday.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="pandas.tests.tseries.offsets.html">pandas.tests.tseries.offsets package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#submodules">Submodules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-common-module">pandas.tests.tseries.offsets.common module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-conftest-module">pandas.tests.tseries.offsets.conftest module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-test-fiscal-module">pandas.tests.tseries.offsets.test_fiscal module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-test-offsets-module">pandas.tests.tseries.offsets.test_offsets module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-test-offsets-properties-module">pandas.tests.tseries.offsets.test_offsets_properties module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-test-ticks-module">pandas.tests.tseries.offsets.test_ticks module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#pandas-tests-tseries-offsets-test-yqm-offsets-module">pandas.tests.tseries.offsets.test_yqm_offsets module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="pandas.tests.tseries.offsets.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tseries.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.tslibs.html">pandas.tests.tslibs package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-api-module">pandas.tests.tslibs.test_api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-array-to-datetime-module">pandas.tests.tslibs.test_array_to_datetime module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-ccalendar-module">pandas.tests.tslibs.test_ccalendar module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-conversion-module">pandas.tests.tslibs.test_conversion module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-fields-module">pandas.tests.tslibs.test_fields module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-libfrequencies-module">pandas.tests.tslibs.test_libfrequencies module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-liboffsets-module">pandas.tests.tslibs.test_liboffsets module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-normalize-date-module">pandas.tests.tslibs.test_normalize_date module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-parse-iso8601-module">pandas.tests.tslibs.test_parse_iso8601 module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-parsing-module">pandas.tests.tslibs.test_parsing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-period-asfreq-module">pandas.tests.tslibs.test_period_asfreq module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-timedeltas-module">pandas.tests.tslibs.test_timedeltas module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#pandas-tests-tslibs-test-timezones-module">pandas.tests.tslibs.test_timezones module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.tslibs.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.util.html">pandas.tests.util package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-conftest-module">pandas.tests.util.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-almost-equal-module">pandas.tests.util.test_assert_almost_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-categorical-equal-module">pandas.tests.util.test_assert_categorical_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-extension-array-equal-module">pandas.tests.util.test_assert_extension_array_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-frame-equal-module">pandas.tests.util.test_assert_frame_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-index-equal-module">pandas.tests.util.test_assert_index_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-interval-array-equal-module">pandas.tests.util.test_assert_interval_array_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-numpy-array-equal-module">pandas.tests.util.test_assert_numpy_array_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-produces-warning-module">pandas.tests.util.test_assert_produces_warning module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-assert-series-equal-module">pandas.tests.util.test_assert_series_equal module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-deprecate-module">pandas.tests.util.test_deprecate module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-deprecate-kwarg-module">pandas.tests.util.test_deprecate_kwarg module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-hashing-module">pandas.tests.util.test_hashing module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-move-module">pandas.tests.util.test_move module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-safe-import-module">pandas.tests.util.test_safe_import module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-util-module">pandas.tests.util.test_util module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-validate-args-module">pandas.tests.util.test_validate_args module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-validate-args-and-kwargs-module">pandas.tests.util.test_validate_args_and_kwargs module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#pandas-tests-util-test-validate-kwargs-module">pandas.tests.util.test_validate_kwargs module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.util.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pandas.tests.window.html">pandas.tests.window package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-common-module">pandas.tests.window.common module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-conftest-module">pandas.tests.window.conftest module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-api-module">pandas.tests.window.test_api module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-dtypes-module">pandas.tests.window.test_dtypes module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-ewm-module">pandas.tests.window.test_ewm module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-expanding-module">pandas.tests.window.test_expanding module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-grouper-module">pandas.tests.window.test_grouper module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-moments-module">pandas.tests.window.test_moments module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-pairwise-module">pandas.tests.window.test_pairwise module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-rolling-module">pandas.tests.window.test_rolling module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-timeseries-window-module">pandas.tests.window.test_timeseries_window module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#pandas-tests-window-test-window-module">pandas.tests.window.test_window module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pandas.tests.window.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-algos-module">pandas.tests.test_algos module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-base-module">pandas.tests.test_base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-common-module">pandas.tests.test_common module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-compat-module">pandas.tests.test_compat module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-downstream-module">pandas.tests.test_downstream module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-errors-module">pandas.tests.test_errors module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-expressions-module">pandas.tests.test_expressions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-join-module">pandas.tests.test_join module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-lib-module">pandas.tests.test_lib module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-multilevel-module">pandas.tests.test_multilevel module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-nanops-module">pandas.tests.test_nanops module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-optional-dependency-module">pandas.tests.test_optional_dependency module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-register-accessor-module">pandas.tests.test_register_accessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-sorting-module">pandas.tests.test_sorting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-strings-module">pandas.tests.test_strings module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#pandas-tests-test-take-module">pandas.tests.test_take module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tests.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.tseries.html">pandas.tseries package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#pandas-tseries-api-module">pandas.tseries.api module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#pandas-tseries-converter-module">pandas.tseries.converter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#pandas-tseries-frequencies-module">pandas.tseries.frequencies module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#pandas-tseries-holiday-module">pandas.tseries.holiday module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#pandas-tseries-offsets-module">pandas.tseries.offsets module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#pandas-tseries-plotting-module">pandas.tseries.plotting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.tseries.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pandas.util.html">pandas.util package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pandas.util.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.util.html#pandas-util-testing-module">pandas.util.testing module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pandas.util.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="pandas-conftest-module">
+<h2>pandas.conftest module<a class="headerlink" href="#pandas-conftest-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="pandas-testing-module">
+<h2>pandas.testing module<a class="headerlink" href="#pandas-testing-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-contents">
+<h2>Module contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">pandas package</a><ul>
+<li><a class="reference internal" href="#subpackages">Subpackages</a></li>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#pandas-conftest-module">pandas.conftest module</a></li>
+<li><a class="reference internal" href="#pandas-testing-module">pandas.testing module</a></li>
+<li><a class="reference internal" href="#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">pandas</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="pandas.api.html"
+                        title="next chapter">pandas.api package</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/pandas.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="pandas.api.html" title="pandas.api package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="pandas"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">SphinxTest 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, Sampat P.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.0.
+    </div>
+  </body>
+</html>

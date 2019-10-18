@@ -1,0 +1,62 @@
+pandas.core.groupby package
+===========================
+
+Submodules
+----------
+
+pandas.core.groupby.base module
+-------------------------------
+
+.. automodule:: pandas.core.groupby.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.groupby.categorical module
+--------------------------------------
+
+.. automodule:: pandas.core.groupby.categorical
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.groupby.generic module
+----------------------------------
+
+.. automodule:: pandas.core.groupby.generic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.groupby.groupby module
+----------------------------------
+
+.. automodule:: pandas.core.groupby.groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.groupby.grouper module
+----------------------------------
+
+.. automodule:: pandas.core.groupby.grouper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.groupby.ops module
+------------------------------
+
+.. automodule:: pandas.core.groupby.ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:

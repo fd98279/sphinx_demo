@@ -1,0 +1,22 @@
+pandas.io.msgpack package
+=========================
+
+Submodules
+----------
+
+pandas.io.msgpack.exceptions module
+-----------------------------------
+
+.. automodule:: pandas.io.msgpack.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.io.msgpack
+   :members:
+   :undoc-members:
+   :show-inheritance:

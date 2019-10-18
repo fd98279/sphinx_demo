@@ -1,0 +1,94 @@
+pandas.tests.plotting package
+=============================
+
+Submodules
+----------
+
+pandas.tests.plotting.common module
+-----------------------------------
+
+.. automodule:: pandas.tests.plotting.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_backend module
+------------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_backend
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_boxplot\_method module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_boxplot_method
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_converter module
+--------------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_converter
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_datetimelike module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_frame module
+----------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_frame
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_groupby module
+------------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_hist\_method module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_hist_method
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_misc module
+---------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_misc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.plotting.test\_series module
+-----------------------------------------
+
+.. automodule:: pandas.tests.plotting.test_series
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.plotting
+   :members:
+   :undoc-members:
+   :show-inheritance:

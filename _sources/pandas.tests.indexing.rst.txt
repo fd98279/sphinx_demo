@@ -1,0 +1,158 @@
+pandas.tests.indexing package
+=============================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.indexing.interval
+   pandas.tests.indexing.multiindex
+
+Submodules
+----------
+
+pandas.tests.indexing.common module
+-----------------------------------
+
+.. automodule:: pandas.tests.indexing.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.conftest module
+-------------------------------------
+
+.. automodule:: pandas.tests.indexing.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_callable module
+-------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_callable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_categorical module
+----------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_categorical
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_chaining\_and\_caching module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_chaining_and_caching
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_coercion module
+-------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_coercion
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_datetime module
+-------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_datetime
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_floats module
+-----------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_floats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_iloc module
+---------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_iloc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_indexing module
+-------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_indexing\_engines module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_indexing_engines
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_indexing\_slow module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_indexing_slow
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_ix module
+-------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_ix
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_loc module
+--------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_loc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_partial module
+------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_partial
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_scalar module
+-----------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_scalar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.test\_timedelta module
+--------------------------------------------
+
+.. automodule:: pandas.tests.indexing.test_timedelta
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:

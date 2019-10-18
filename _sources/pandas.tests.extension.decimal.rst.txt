@@ -1,0 +1,30 @@
+pandas.tests.extension.decimal package
+======================================
+
+Submodules
+----------
+
+pandas.tests.extension.decimal.array module
+-------------------------------------------
+
+.. automodule:: pandas.tests.extension.decimal.array
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.decimal.test\_decimal module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.extension.decimal.test_decimal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.extension.decimal
+   :members:
+   :undoc-members:
+   :show-inheritance:

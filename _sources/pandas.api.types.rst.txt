@@ -1,0 +1,10 @@
+pandas.api.types package
+========================
+
+Module contents
+---------------
+
+.. automodule:: pandas.api.types
+   :members:
+   :undoc-members:
+   :show-inheritance:

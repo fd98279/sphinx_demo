@@ -1,0 +1,38 @@
+pandas.tests.extension.arrow package
+====================================
+
+Submodules
+----------
+
+pandas.tests.extension.arrow.arrays module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.arrow.arrays
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.arrow.test\_bool module
+----------------------------------------------
+
+.. automodule:: pandas.tests.extension.arrow.test_bool
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.arrow.test\_string module
+------------------------------------------------
+
+.. automodule:: pandas.tests.extension.arrow.test_string
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.extension.arrow
+   :members:
+   :undoc-members:
+   :show-inheritance:

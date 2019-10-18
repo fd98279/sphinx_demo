@@ -1,0 +1,173 @@
+pandas.tests package
+====================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.api
+   pandas.tests.arithmetic
+   pandas.tests.arrays
+   pandas.tests.computation
+   pandas.tests.config
+   pandas.tests.dtypes
+   pandas.tests.extension
+   pandas.tests.frame
+   pandas.tests.generic
+   pandas.tests.groupby
+   pandas.tests.indexes
+   pandas.tests.indexing
+   pandas.tests.internals
+   pandas.tests.io
+   pandas.tests.plotting
+   pandas.tests.reductions
+   pandas.tests.resample
+   pandas.tests.reshape
+   pandas.tests.scalar
+   pandas.tests.series
+   pandas.tests.tools
+   pandas.tests.tseries
+   pandas.tests.tslibs
+   pandas.tests.util
+   pandas.tests.window
+
+Submodules
+----------
+
+pandas.tests.test\_algos module
+-------------------------------
+
+.. automodule:: pandas.tests.test_algos
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_base module
+------------------------------
+
+.. automodule:: pandas.tests.test_base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_common module
+--------------------------------
+
+.. automodule:: pandas.tests.test_common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_compat module
+--------------------------------
+
+.. automodule:: pandas.tests.test_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_downstream module
+------------------------------------
+
+.. automodule:: pandas.tests.test_downstream
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_errors module
+--------------------------------
+
+.. automodule:: pandas.tests.test_errors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_expressions module
+-------------------------------------
+
+.. automodule:: pandas.tests.test_expressions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_join module
+------------------------------
+
+.. automodule:: pandas.tests.test_join
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_lib module
+-----------------------------
+
+.. automodule:: pandas.tests.test_lib
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_multilevel module
+------------------------------------
+
+.. automodule:: pandas.tests.test_multilevel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_nanops module
+--------------------------------
+
+.. automodule:: pandas.tests.test_nanops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_optional\_dependency module
+----------------------------------------------
+
+.. automodule:: pandas.tests.test_optional_dependency
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_register\_accessor module
+--------------------------------------------
+
+.. automodule:: pandas.tests.test_register_accessor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_sorting module
+---------------------------------
+
+.. automodule:: pandas.tests.test_sorting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_strings module
+---------------------------------
+
+.. automodule:: pandas.tests.test_strings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.test\_take module
+------------------------------
+
+.. automodule:: pandas.tests.test_take
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:

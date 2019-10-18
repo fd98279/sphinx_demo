@@ -1,0 +1,30 @@
+pandas.tests.extension.json package
+===================================
+
+Submodules
+----------
+
+pandas.tests.extension.json.array module
+----------------------------------------
+
+.. automodule:: pandas.tests.extension.json.array
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.json.test\_json module
+---------------------------------------------
+
+.. automodule:: pandas.tests.extension.json.test_json
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.extension.json
+   :members:
+   :undoc-members:
+   :show-inheritance:

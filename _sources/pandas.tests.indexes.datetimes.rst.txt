@@ -1,0 +1,142 @@
+pandas.tests.indexes.datetimes package
+======================================
+
+Submodules
+----------
+
+pandas.tests.indexes.datetimes.test\_arithmetic module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_astype module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_astype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_construction module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_date\_range module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_date_range
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_datetime module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_datetime
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_datetimelike module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_formats module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_formats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_indexing module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_misc module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_misc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_missing module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_ops module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_partial\_slicing module
+------------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_partial_slicing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_scalar\_compat module
+----------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_scalar_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_setops module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_setops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_timezones module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_timezones
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimes.test\_tools module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimes.test_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexes.datetimes
+   :members:
+   :undoc-members:
+   :show-inheritance:

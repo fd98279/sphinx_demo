@@ -1,0 +1,110 @@
+pandas.tests.window package
+===========================
+
+Submodules
+----------
+
+pandas.tests.window.common module
+---------------------------------
+
+.. automodule:: pandas.tests.window.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.conftest module
+-----------------------------------
+
+.. automodule:: pandas.tests.window.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_api module
+------------------------------------
+
+.. automodule:: pandas.tests.window.test_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_dtypes module
+---------------------------------------
+
+.. automodule:: pandas.tests.window.test_dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_ewm module
+------------------------------------
+
+.. automodule:: pandas.tests.window.test_ewm
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_expanding module
+------------------------------------------
+
+.. automodule:: pandas.tests.window.test_expanding
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_grouper module
+----------------------------------------
+
+.. automodule:: pandas.tests.window.test_grouper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_moments module
+----------------------------------------
+
+.. automodule:: pandas.tests.window.test_moments
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_pairwise module
+-----------------------------------------
+
+.. automodule:: pandas.tests.window.test_pairwise
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_rolling module
+----------------------------------------
+
+.. automodule:: pandas.tests.window.test_rolling
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_timeseries\_window module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.window.test_timeseries_window
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.window.test\_window module
+---------------------------------------
+
+.. automodule:: pandas.tests.window.test_window
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.window
+   :members:
+   :undoc-members:
+   :show-inheritance:

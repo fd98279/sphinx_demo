@@ -1,0 +1,102 @@
+pandas.core.computation package
+===============================
+
+Submodules
+----------
+
+pandas.core.computation.align module
+------------------------------------
+
+.. automodule:: pandas.core.computation.align
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.api module
+----------------------------------
+
+.. automodule:: pandas.core.computation.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.check module
+------------------------------------
+
+.. automodule:: pandas.core.computation.check
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.common module
+-------------------------------------
+
+.. automodule:: pandas.core.computation.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.engines module
+--------------------------------------
+
+.. automodule:: pandas.core.computation.engines
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.eval module
+-----------------------------------
+
+.. automodule:: pandas.core.computation.eval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.expr module
+-----------------------------------
+
+.. automodule:: pandas.core.computation.expr
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.expressions module
+------------------------------------------
+
+.. automodule:: pandas.core.computation.expressions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.ops module
+----------------------------------
+
+.. automodule:: pandas.core.computation.ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.pytables module
+---------------------------------------
+
+.. automodule:: pandas.core.computation.pytables
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.computation.scope module
+------------------------------------
+
+.. automodule:: pandas.core.computation.scope
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.computation
+   :members:
+   :undoc-members:
+   :show-inheritance:

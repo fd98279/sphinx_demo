@@ -1,0 +1,149 @@
+pandas.tests.groupby package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.groupby.aggregate
+
+Submodules
+----------
+
+pandas.tests.groupby.conftest module
+------------------------------------
+
+.. automodule:: pandas.tests.groupby.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_apply module
+---------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_apply
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_bin\_groupby module
+----------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_bin_groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_categorical module
+---------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_categorical
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_counting module
+------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_counting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_filters module
+-----------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_filters
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_function module
+------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_function
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_groupby module
+-----------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_grouping module
+------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_grouping
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_index\_as\_string module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_index_as_string
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_nth module
+-------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_nth
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_rank module
+--------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_rank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_timegrouper module
+---------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_timegrouper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_transform module
+-------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_transform
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_value\_counts module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_value_counts
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.groupby.test\_whitelist module
+-------------------------------------------
+
+.. automodule:: pandas.tests.groupby.test_whitelist
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:

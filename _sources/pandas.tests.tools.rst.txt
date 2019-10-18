@@ -1,0 +1,22 @@
+pandas.tests.tools package
+==========================
+
+Submodules
+----------
+
+pandas.tests.tools.test\_numeric module
+---------------------------------------
+
+.. automodule:: pandas.tests.tools.test_numeric
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:

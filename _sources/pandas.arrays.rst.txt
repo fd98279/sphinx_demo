@@ -1,0 +1,10 @@
+pandas.arrays package
+=====================
+
+Module contents
+---------------
+
+.. automodule:: pandas.arrays
+   :members:
+   :undoc-members:
+   :show-inheritance:

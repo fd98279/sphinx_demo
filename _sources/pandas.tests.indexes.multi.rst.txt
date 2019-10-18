@@ -1,0 +1,206 @@
+pandas.tests.indexes.multi package
+==================================
+
+Submodules
+----------
+
+pandas.tests.indexes.multi.conftest module
+------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_analytics module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_analytics
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_astype module
+----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_astype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_compat module
+----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_constructor module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_constructor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_contains module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_contains
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_conversion module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_conversion
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_copy module
+--------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_copy
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_drop module
+--------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_drop
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_duplicates module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_duplicates
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_equivalence module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_equivalence
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_format module
+----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_format
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_get\_set module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_get_set
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_indexing module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_integrity module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_integrity
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_join module
+--------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_join
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_missing module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_monotonic module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_monotonic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_names module
+---------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_names
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_partial\_indexing module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_partial_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_reindex module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_reindex
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_reshape module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_reshape
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_set\_ops module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_set_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.multi.test\_sorting module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.multi.test_sorting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexes.multi
+   :members:
+   :undoc-members:
+   :show-inheritance:

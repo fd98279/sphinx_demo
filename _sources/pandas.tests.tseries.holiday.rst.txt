@@ -1,0 +1,46 @@
+pandas.tests.tseries.holiday package
+====================================
+
+Submodules
+----------
+
+pandas.tests.tseries.holiday.test\_calendar module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.holiday.test_calendar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.holiday.test\_federal module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.holiday.test_federal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.holiday.test\_holiday module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.holiday.test_holiday
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.holiday.test\_observance module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.holiday.test_observance
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.tseries.holiday
+   :members:
+   :undoc-members:
+   :show-inheritance:

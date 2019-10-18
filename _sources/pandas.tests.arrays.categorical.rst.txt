@@ -1,0 +1,126 @@
+pandas.tests.arrays.categorical package
+=======================================
+
+Submodules
+----------
+
+pandas.tests.arrays.categorical.common module
+---------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.conftest module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_algos module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_algos
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_analytics module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_analytics
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_api module
+------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_constructors module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_constructors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_dtypes module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_indexing module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_missing module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_operators module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_operators
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_repr module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_repr
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_sorting module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_sorting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_subclass module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_subclass
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.categorical.test\_warnings module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.categorical.test_warnings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.arrays.categorical
+   :members:
+   :undoc-members:
+   :show-inheritance:

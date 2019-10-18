@@ -1,0 +1,10 @@
+pandas.api.extensions package
+=============================
+
+Module contents
+---------------
+
+.. automodule:: pandas.api.extensions
+   :members:
+   :undoc-members:
+   :show-inheritance:

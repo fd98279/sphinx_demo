@@ -1,0 +1,69 @@
+pandas.tests.dtypes package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.dtypes.cast
+
+Submodules
+----------
+
+pandas.tests.dtypes.test\_common module
+---------------------------------------
+
+.. automodule:: pandas.tests.dtypes.test_common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.test\_concat module
+---------------------------------------
+
+.. automodule:: pandas.tests.dtypes.test_concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.test\_dtypes module
+---------------------------------------
+
+.. automodule:: pandas.tests.dtypes.test_dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.test\_generic module
+----------------------------------------
+
+.. automodule:: pandas.tests.dtypes.test_generic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.test\_inference module
+------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.test_inference
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.test\_missing module
+----------------------------------------
+
+.. automodule:: pandas.tests.dtypes.test_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,46 @@
+pandas.tests.scalar.timedelta package
+=====================================
+
+Submodules
+----------
+
+pandas.tests.scalar.timedelta.test\_arithmetic module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.scalar.timedelta.test_arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.scalar.timedelta.test\_construction module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.scalar.timedelta.test_construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.scalar.timedelta.test\_formats module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.scalar.timedelta.test_formats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.scalar.timedelta.test\_timedelta module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.scalar.timedelta.test_timedelta
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.scalar.timedelta
+   :members:
+   :undoc-members:
+   :show-inheritance:

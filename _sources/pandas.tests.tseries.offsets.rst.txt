@@ -1,0 +1,70 @@
+pandas.tests.tseries.offsets package
+====================================
+
+Submodules
+----------
+
+pandas.tests.tseries.offsets.common module
+------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.offsets.conftest module
+--------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.offsets.test\_fiscal module
+------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.test_fiscal
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.offsets.test\_offsets module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.test_offsets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.offsets.test\_offsets\_properties module
+-------------------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.test_offsets_properties
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.offsets.test\_ticks module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.test_ticks
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tseries.offsets.test\_yqm\_offsets module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.tseries.offsets.test_yqm_offsets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.tseries.offsets
+   :members:
+   :undoc-members:
+   :show-inheritance:

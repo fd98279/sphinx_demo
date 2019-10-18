@@ -1,0 +1,22 @@
+pandas.core.util package
+========================
+
+Submodules
+----------
+
+pandas.core.util.hashing module
+-------------------------------
+
+.. automodule:: pandas.core.util.hashing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.util
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,86 @@
+pandas.tests.indexes.interval package
+=====================================
+
+Submodules
+----------
+
+pandas.tests.indexes.interval.test\_astype module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_astype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_base module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_construction module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_formats module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_formats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_indexing module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_interval module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_interval\_range module
+----------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_interval_range
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_interval\_tree module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_interval_tree
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.interval.test\_setops module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.interval.test_setops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexes.interval
+   :members:
+   :undoc-members:
+   :show-inheritance:

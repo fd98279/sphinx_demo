@@ -1,0 +1,118 @@
+pandas.tests.tslibs package
+===========================
+
+Submodules
+----------
+
+pandas.tests.tslibs.test\_api module
+------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_array\_to\_datetime module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_array_to_datetime
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_ccalendar module
+------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_ccalendar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_conversion module
+-------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_conversion
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_fields module
+---------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_fields
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_libfrequencies module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_libfrequencies
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_liboffsets module
+-------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_liboffsets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_normalize\_date module
+------------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_normalize_date
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_parse\_iso8601 module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_parse_iso8601
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_parsing module
+----------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_parsing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_period\_asfreq module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_period_asfreq
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_timedeltas module
+-------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_timedeltas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.tslibs.test\_timezones module
+------------------------------------------
+
+.. automodule:: pandas.tests.tslibs.test_timezones
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.tslibs
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,86 @@
+pandas.tests.io.excel package
+=============================
+
+Submodules
+----------
+
+pandas.tests.io.excel.conftest module
+-------------------------------------
+
+.. automodule:: pandas.tests.io.excel.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_odf module
+--------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_odf
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_openpyxl module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_openpyxl
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_readers module
+------------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_readers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_style module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_style
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_writers module
+------------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_writers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_xlrd module
+---------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_xlrd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_xlsxwriter module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_xlsxwriter
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.excel.test\_xlwt module
+---------------------------------------
+
+.. automodule:: pandas.tests.io.excel.test_xlwt
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.excel
+   :members:
+   :undoc-members:
+   :show-inheritance:

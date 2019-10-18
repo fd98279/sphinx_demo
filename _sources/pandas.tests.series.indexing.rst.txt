@@ -1,0 +1,86 @@
+pandas.tests.series.indexing package
+====================================
+
+Submodules
+----------
+
+pandas.tests.series.indexing.conftest module
+--------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_alter\_index module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_alter_index
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_boolean module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_boolean
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_callable module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_callable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_datetime module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_datetime
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_iloc module
+----------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_iloc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_indexing module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_loc module
+---------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_loc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.indexing.test\_numeric module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.series.indexing.test_numeric
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.series.indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:

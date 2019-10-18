@@ -1,0 +1,142 @@
+pandas.tests.io.msgpack package
+===============================
+
+Submodules
+----------
+
+pandas.tests.io.msgpack.common module
+-------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_buffer module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_buffer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_case module
+-----------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_case
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_except module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_except
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_extension module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_extension
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_format module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_format
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_limits module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_limits
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_newspec module
+--------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_newspec
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_obj module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_obj
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_pack module
+-----------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_pack
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_read\_size module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_read_size
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_seq module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_seq
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_sequnpack module
+----------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_sequnpack
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_subtype module
+--------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_subtype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_unpack module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_unpack
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.msgpack.test\_unpack\_raw module
+------------------------------------------------
+
+.. automodule:: pandas.tests.io.msgpack.test_unpack_raw
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.msgpack
+   :members:
+   :undoc-members:
+   :show-inheritance:

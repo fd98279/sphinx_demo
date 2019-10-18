@@ -1,0 +1,101 @@
+pandas.core.arrays package
+==========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.core.arrays.sparse
+
+Submodules
+----------
+
+pandas.core.arrays.base module
+------------------------------
+
+.. automodule:: pandas.core.arrays.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.categorical module
+-------------------------------------
+
+.. automodule:: pandas.core.arrays.categorical
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.datetimelike module
+--------------------------------------
+
+.. automodule:: pandas.core.arrays.datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.datetimes module
+-----------------------------------
+
+.. automodule:: pandas.core.arrays.datetimes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.integer module
+---------------------------------
+
+.. automodule:: pandas.core.arrays.integer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.interval module
+----------------------------------
+
+.. automodule:: pandas.core.arrays.interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.numpy\_ module
+---------------------------------
+
+.. automodule:: pandas.core.arrays.numpy_
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.period module
+--------------------------------
+
+.. automodule:: pandas.core.arrays.period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.string\_ module
+----------------------------------
+
+.. automodule:: pandas.core.arrays.string_
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.arrays.timedeltas module
+------------------------------------
+
+.. automodule:: pandas.core.arrays.timedeltas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.arrays
+   :members:
+   :undoc-members:
+   :show-inheritance:

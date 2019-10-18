@@ -1,0 +1,19 @@
+pandas.tests.tseries package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.tseries.frequencies
+   pandas.tests.tseries.holiday
+   pandas.tests.tseries.offsets
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.tseries
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,134 @@
+pandas.tests.indexing.multiindex package
+========================================
+
+Submodules
+----------
+
+pandas.tests.indexing.multiindex.conftest module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_chaining\_and\_caching module
+--------------------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_chaining_and_caching
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_datetime module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_datetime
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_getitem module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_getitem
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_iloc module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_iloc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_indexing\_slow module
+------------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_indexing_slow
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_ix module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_ix
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_loc module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_loc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_multiindex module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_multiindex
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_partial module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_partial
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_set\_ops module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_set_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_setitem module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_setitem
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_slice module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_slice
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_sorted module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_sorted
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.multiindex.test\_xs module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.multiindex.test_xs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexing.multiindex
+   :members:
+   :undoc-members:
+   :show-inheritance:

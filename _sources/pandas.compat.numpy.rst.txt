@@ -1,0 +1,22 @@
+pandas.compat.numpy package
+===========================
+
+Submodules
+----------
+
+pandas.compat.numpy.function module
+-----------------------------------
+
+.. automodule:: pandas.compat.numpy.function
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.compat.numpy
+   :members:
+   :undoc-members:
+   :show-inheritance:

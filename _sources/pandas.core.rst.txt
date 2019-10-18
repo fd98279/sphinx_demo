@@ -1,0 +1,184 @@
+pandas.core package
+===================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.core.arrays
+   pandas.core.computation
+   pandas.core.dtypes
+   pandas.core.groupby
+   pandas.core.indexes
+   pandas.core.internals
+   pandas.core.ops
+   pandas.core.reshape
+   pandas.core.sparse
+   pandas.core.tools
+   pandas.core.util
+   pandas.core.window
+
+Submodules
+----------
+
+pandas.core.accessor module
+---------------------------
+
+.. automodule:: pandas.core.accessor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.algorithms module
+-----------------------------
+
+.. automodule:: pandas.core.algorithms
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.api module
+----------------------
+
+.. automodule:: pandas.core.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.apply module
+------------------------
+
+.. automodule:: pandas.core.apply
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.base module
+-----------------------
+
+.. automodule:: pandas.core.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.common module
+-------------------------
+
+.. automodule:: pandas.core.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.config\_init module
+-------------------------------
+
+.. automodule:: pandas.core.config_init
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.construction module
+-------------------------------
+
+.. automodule:: pandas.core.construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.frame module
+------------------------
+
+.. automodule:: pandas.core.frame
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.generic module
+--------------------------
+
+.. automodule:: pandas.core.generic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.index module
+------------------------
+
+.. automodule:: pandas.core.index
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexers module
+---------------------------
+
+.. automodule:: pandas.core.indexers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.indexing module
+---------------------------
+
+.. automodule:: pandas.core.indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.missing module
+--------------------------
+
+.. automodule:: pandas.core.missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.nanops module
+-------------------------
+
+.. automodule:: pandas.core.nanops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.resample module
+---------------------------
+
+.. automodule:: pandas.core.resample
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.series module
+-------------------------
+
+.. automodule:: pandas.core.series
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.sorting module
+--------------------------
+
+.. automodule:: pandas.core.sorting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.strings module
+--------------------------
+
+.. automodule:: pandas.core.strings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core
+   :members:
+   :undoc-members:
+   :show-inheritance:

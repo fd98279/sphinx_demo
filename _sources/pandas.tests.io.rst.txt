@@ -1,0 +1,163 @@
+pandas.tests.io package
+=======================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.io.excel
+   pandas.tests.io.formats
+   pandas.tests.io.json
+   pandas.tests.io.msgpack
+   pandas.tests.io.parser
+   pandas.tests.io.pytables
+   pandas.tests.io.sas
+
+Submodules
+----------
+
+pandas.tests.io.conftest module
+-------------------------------
+
+.. automodule:: pandas.tests.io.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.generate\_legacy\_storage\_files module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.io.generate_legacy_storage_files
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_clipboard module
+--------------------------------------
+
+.. automodule:: pandas.tests.io.test_clipboard
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_common module
+-----------------------------------
+
+.. automodule:: pandas.tests.io.test_common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_compression module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.test_compression
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_date\_converters module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.test_date_converters
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_feather module
+------------------------------------
+
+.. automodule:: pandas.tests.io.test_feather
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_gbq module
+--------------------------------
+
+.. automodule:: pandas.tests.io.test_gbq
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_gcs module
+--------------------------------
+
+.. automodule:: pandas.tests.io.test_gcs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_html module
+---------------------------------
+
+.. automodule:: pandas.tests.io.test_html
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_packers module
+------------------------------------
+
+.. automodule:: pandas.tests.io.test_packers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_parquet module
+------------------------------------
+
+.. automodule:: pandas.tests.io.test_parquet
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_pickle module
+-----------------------------------
+
+.. automodule:: pandas.tests.io.test_pickle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_s3 module
+-------------------------------
+
+.. automodule:: pandas.tests.io.test_s3
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_spss module
+---------------------------------
+
+.. automodule:: pandas.tests.io.test_spss
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_sql module
+--------------------------------
+
+.. automodule:: pandas.tests.io.test_sql
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.test\_stata module
+----------------------------------
+
+.. automodule:: pandas.tests.io.test_stata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io
+   :members:
+   :undoc-members:
+   :show-inheritance:

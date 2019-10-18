@@ -1,0 +1,10 @@
+pandas.plotting package
+=======================
+
+Module contents
+---------------
+
+.. automodule:: pandas.plotting
+   :members:
+   :undoc-members:
+   :show-inheritance:

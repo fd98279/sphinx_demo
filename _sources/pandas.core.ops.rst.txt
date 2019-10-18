@@ -1,0 +1,70 @@
+pandas.core.ops package
+=======================
+
+Submodules
+----------
+
+pandas.core.ops.array\_ops module
+---------------------------------
+
+.. automodule:: pandas.core.ops.array_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.ops.dispatch module
+-------------------------------
+
+.. automodule:: pandas.core.ops.dispatch
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.ops.docstrings module
+---------------------------------
+
+.. automodule:: pandas.core.ops.docstrings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.ops.invalid module
+------------------------------
+
+.. automodule:: pandas.core.ops.invalid
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.ops.methods module
+------------------------------
+
+.. automodule:: pandas.core.ops.methods
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.ops.missing module
+------------------------------
+
+.. automodule:: pandas.core.ops.missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.ops.roperator module
+--------------------------------
+
+.. automodule:: pandas.core.ops.roperator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.ops
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,30 @@
+pandas.tests.reductions package
+===============================
+
+Submodules
+----------
+
+pandas.tests.reductions.test\_reductions module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.reductions.test_reductions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.reductions.test\_stat\_reductions module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.reductions.test_stat_reductions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.reductions
+   :members:
+   :undoc-members:
+   :show-inheritance:

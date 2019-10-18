@@ -1,0 +1,22 @@
+pandas.util package
+===================
+
+Submodules
+----------
+
+pandas.util.testing module
+--------------------------
+
+.. automodule:: pandas.util.testing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.util
+   :members:
+   :undoc-members:
+   :show-inheritance:

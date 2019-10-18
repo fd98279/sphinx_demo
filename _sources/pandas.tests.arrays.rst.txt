@@ -1,0 +1,80 @@
+pandas.tests.arrays package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.arrays.categorical
+   pandas.tests.arrays.interval
+   pandas.tests.arrays.sparse
+   pandas.tests.arrays.string_
+
+Submodules
+----------
+
+pandas.tests.arrays.test\_array module
+--------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_array
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.test\_datetimelike module
+---------------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.test\_datetimes module
+------------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_datetimes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.test\_integer module
+----------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_integer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.test\_numpy module
+--------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_numpy
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.test\_period module
+---------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.test\_timedeltas module
+-------------------------------------------
+
+.. automodule:: pandas.tests.arrays.test_timedeltas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.arrays
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,10 @@
+pandas.io.json package
+======================
+
+Module contents
+---------------
+
+.. automodule:: pandas.io.json
+   :members:
+   :undoc-members:
+   :show-inheritance:

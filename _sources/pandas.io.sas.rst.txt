@@ -1,0 +1,54 @@
+pandas.io.sas package
+=====================
+
+Submodules
+----------
+
+pandas.io.sas.sas module
+------------------------
+
+.. automodule:: pandas.io.sas.sas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.sas.sas7bdat module
+-----------------------------
+
+.. automodule:: pandas.io.sas.sas7bdat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.sas.sas\_constants module
+-----------------------------------
+
+.. automodule:: pandas.io.sas.sas_constants
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.sas.sas\_xport module
+-------------------------------
+
+.. automodule:: pandas.io.sas.sas_xport
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.sas.sasreader module
+------------------------------
+
+.. automodule:: pandas.io.sas.sasreader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.io.sas
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,22 @@
+pandas.core.sparse package
+==========================
+
+Submodules
+----------
+
+pandas.core.sparse.api module
+-----------------------------
+
+.. automodule:: pandas.core.sparse.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.sparse
+   :members:
+   :undoc-members:
+   :show-inheritance:

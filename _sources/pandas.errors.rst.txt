@@ -1,0 +1,10 @@
+pandas.errors package
+=====================
+
+Module contents
+---------------
+
+.. automodule:: pandas.errors
+   :members:
+   :undoc-members:
+   :show-inheritance:

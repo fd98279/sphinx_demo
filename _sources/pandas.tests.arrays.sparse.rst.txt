@@ -1,0 +1,62 @@
+pandas.tests.arrays.sparse package
+==================================
+
+Submodules
+----------
+
+pandas.tests.arrays.sparse.test\_accessor module
+------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.sparse.test_accessor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.sparse.test\_arithmetics module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.sparse.test_arithmetics
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.sparse.test\_array module
+---------------------------------------------
+
+.. automodule:: pandas.tests.arrays.sparse.test_array
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.sparse.test\_combine\_concat module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.sparse.test_combine_concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.sparse.test\_dtype module
+---------------------------------------------
+
+.. automodule:: pandas.tests.arrays.sparse.test_dtype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.sparse.test\_libsparse module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.sparse.test_libsparse
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.arrays.sparse
+   :members:
+   :undoc-members:
+   :show-inheritance:

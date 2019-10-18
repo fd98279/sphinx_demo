@@ -1,0 +1,113 @@
+pandas.tests.indexes package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.indexes.datetimes
+   pandas.tests.indexes.interval
+   pandas.tests.indexes.multi
+   pandas.tests.indexes.period
+   pandas.tests.indexes.timedeltas
+
+Submodules
+----------
+
+pandas.tests.indexes.common module
+----------------------------------
+
+.. automodule:: pandas.tests.indexes.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.conftest module
+------------------------------------
+
+.. automodule:: pandas.tests.indexes.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.datetimelike module
+----------------------------------------
+
+.. automodule:: pandas.tests.indexes.datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_base module
+--------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_category module
+------------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_category
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_common module
+----------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_frozen module
+----------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_frozen
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_numeric module
+-----------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_numeric
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_numpy\_compat module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_numpy_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_range module
+---------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_range
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.test\_setops module
+----------------------------------------
+
+.. automodule:: pandas.tests.indexes.test_setops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexes
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,110 @@
+pandas.tests.indexes.timedeltas package
+=======================================
+
+Submodules
+----------
+
+pandas.tests.indexes.timedeltas.test\_arithmetic module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_astype module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_astype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_construction module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_formats module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_formats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_indexing module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_ops module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_partial\_slicing module
+-------------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_partial_slicing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_scalar\_compat module
+-----------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_scalar_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_setops module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_setops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_timedelta module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_timedelta
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_timedelta\_range module
+-------------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_timedelta_range
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.timedeltas.test\_tools module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.timedeltas.test_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexes.timedeltas
+   :members:
+   :undoc-members:
+   :show-inheritance:

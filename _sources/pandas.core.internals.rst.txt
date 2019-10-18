@@ -1,0 +1,46 @@
+pandas.core.internals package
+=============================
+
+Submodules
+----------
+
+pandas.core.internals.blocks module
+-----------------------------------
+
+.. automodule:: pandas.core.internals.blocks
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.internals.concat module
+-----------------------------------
+
+.. automodule:: pandas.core.internals.concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.internals.construction module
+-----------------------------------------
+
+.. automodule:: pandas.core.internals.construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.internals.managers module
+-------------------------------------
+
+.. automodule:: pandas.core.internals.managers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.internals
+   :members:
+   :undoc-members:
+   :show-inheritance:

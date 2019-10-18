@@ -1,0 +1,261 @@
+pandas.tests.series package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.tests.series.indexing
+
+Submodules
+----------
+
+pandas.tests.series.common module
+---------------------------------
+
+.. automodule:: pandas.tests.series.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.conftest module
+-----------------------------------
+
+.. automodule:: pandas.tests.series.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_alter\_axes module
+--------------------------------------------
+
+.. automodule:: pandas.tests.series.test_alter_axes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_analytics module
+------------------------------------------
+
+.. automodule:: pandas.tests.series.test_analytics
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_api module
+------------------------------------
+
+.. automodule:: pandas.tests.series.test_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_apply module
+--------------------------------------
+
+.. automodule:: pandas.tests.series.test_apply
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_arithmetic module
+-------------------------------------------
+
+.. automodule:: pandas.tests.series.test_arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_asof module
+-------------------------------------
+
+.. automodule:: pandas.tests.series.test_asof
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_block\_internals module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.series.test_block_internals
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_combine\_concat module
+------------------------------------------------
+
+.. automodule:: pandas.tests.series.test_combine_concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_constructors module
+---------------------------------------------
+
+.. automodule:: pandas.tests.series.test_constructors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_datetime\_values module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.series.test_datetime_values
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_dtypes module
+---------------------------------------
+
+.. automodule:: pandas.tests.series.test_dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_duplicates module
+-------------------------------------------
+
+.. automodule:: pandas.tests.series.test_duplicates
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_explode module
+----------------------------------------
+
+.. automodule:: pandas.tests.series.test_explode
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_internals module
+------------------------------------------
+
+.. automodule:: pandas.tests.series.test_internals
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_io module
+-----------------------------------
+
+.. automodule:: pandas.tests.series.test_io
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_missing module
+----------------------------------------
+
+.. automodule:: pandas.tests.series.test_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_operators module
+------------------------------------------
+
+.. automodule:: pandas.tests.series.test_operators
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_period module
+---------------------------------------
+
+.. automodule:: pandas.tests.series.test_period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_quantile module
+-----------------------------------------
+
+.. automodule:: pandas.tests.series.test_quantile
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_rank module
+-------------------------------------
+
+.. automodule:: pandas.tests.series.test_rank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_replace module
+----------------------------------------
+
+.. automodule:: pandas.tests.series.test_replace
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_repr module
+-------------------------------------
+
+.. automodule:: pandas.tests.series.test_repr
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_sorting module
+----------------------------------------
+
+.. automodule:: pandas.tests.series.test_sorting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_subclass module
+-----------------------------------------
+
+.. automodule:: pandas.tests.series.test_subclass
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_timeseries module
+-------------------------------------------
+
+.. automodule:: pandas.tests.series.test_timeseries
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_timezones module
+------------------------------------------
+
+.. automodule:: pandas.tests.series.test_timezones
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_ufunc module
+--------------------------------------
+
+.. automodule:: pandas.tests.series.test_ufunc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.series.test\_validate module
+-----------------------------------------
+
+.. automodule:: pandas.tests.series.test_validate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.series
+   :members:
+   :undoc-members:
+   :show-inheritance:

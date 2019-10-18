@@ -1,0 +1,86 @@
+pandas.io.formats package
+=========================
+
+Submodules
+----------
+
+pandas.io.formats.console module
+--------------------------------
+
+.. automodule:: pandas.io.formats.console
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.css module
+----------------------------
+
+.. automodule:: pandas.io.formats.css
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.csvs module
+-----------------------------
+
+.. automodule:: pandas.io.formats.csvs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.excel module
+------------------------------
+
+.. automodule:: pandas.io.formats.excel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.format module
+-------------------------------
+
+.. automodule:: pandas.io.formats.format
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.html module
+-----------------------------
+
+.. automodule:: pandas.io.formats.html
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.latex module
+------------------------------
+
+.. automodule:: pandas.io.formats.latex
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.printing module
+---------------------------------
+
+.. automodule:: pandas.io.formats.printing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.formats.style module
+------------------------------
+
+.. automodule:: pandas.io.formats.style
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.io.formats
+   :members:
+   :undoc-members:
+   :show-inheritance:

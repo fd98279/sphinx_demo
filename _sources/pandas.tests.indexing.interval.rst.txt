@@ -1,0 +1,30 @@
+pandas.tests.indexing.interval package
+======================================
+
+Submodules
+----------
+
+pandas.tests.indexing.interval.test\_interval module
+----------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.interval.test_interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexing.interval.test\_interval\_new module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.indexing.interval.test_interval_new
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexing.interval
+   :members:
+   :undoc-members:
+   :show-inheritance:

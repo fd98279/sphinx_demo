@@ -1,0 +1,302 @@
+pandas.tests.frame package
+==========================
+
+Submodules
+----------
+
+pandas.tests.frame.common module
+--------------------------------
+
+.. automodule:: pandas.tests.frame.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.conftest module
+----------------------------------
+
+.. automodule:: pandas.tests.frame.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_alter\_axes module
+-------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_alter_axes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_analytics module
+-----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_analytics
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_api module
+-----------------------------------
+
+.. automodule:: pandas.tests.frame.test_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_apply module
+-------------------------------------
+
+.. automodule:: pandas.tests.frame.test_apply
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_arithmetic module
+------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_asof module
+------------------------------------
+
+.. automodule:: pandas.tests.frame.test_asof
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_axis\_select\_reindex module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_axis_select_reindex
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_block\_internals module
+------------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_block_internals
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_combine\_concat module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_combine_concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_constructors module
+--------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_constructors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_convert\_to module
+-------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_convert_to
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_dtypes module
+--------------------------------------
+
+.. automodule:: pandas.tests.frame.test_dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_duplicates module
+------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_duplicates
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_explode module
+---------------------------------------
+
+.. automodule:: pandas.tests.frame.test_explode
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_indexing module
+----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_join module
+------------------------------------
+
+.. automodule:: pandas.tests.frame.test_join
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_missing module
+---------------------------------------
+
+.. automodule:: pandas.tests.frame.test_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_mutate\_columns module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_mutate_columns
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_nonunique\_indexes module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_nonunique_indexes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_operators module
+-----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_operators
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_period module
+--------------------------------------
+
+.. automodule:: pandas.tests.frame.test_period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_quantile module
+----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_quantile
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_query\_eval module
+-------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_query_eval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_rank module
+------------------------------------
+
+.. automodule:: pandas.tests.frame.test_rank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_replace module
+---------------------------------------
+
+.. automodule:: pandas.tests.frame.test_replace
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_repr\_info module
+------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_repr_info
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_reshape module
+---------------------------------------
+
+.. automodule:: pandas.tests.frame.test_reshape
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_sort\_values\_level\_as\_str module
+------------------------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_sort_values_level_as_str
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_sorting module
+---------------------------------------
+
+.. automodule:: pandas.tests.frame.test_sorting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_subclass module
+----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_subclass
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_timeseries module
+------------------------------------------
+
+.. automodule:: pandas.tests.frame.test_timeseries
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_timezones module
+-----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_timezones
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_to\_csv module
+---------------------------------------
+
+.. automodule:: pandas.tests.frame.test_to_csv
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.frame.test\_validate module
+----------------------------------------
+
+.. automodule:: pandas.tests.frame.test_validate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.frame
+   :members:
+   :undoc-members:
+   :show-inheritance:

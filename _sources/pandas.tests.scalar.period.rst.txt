@@ -1,0 +1,30 @@
+pandas.tests.scalar.period package
+==================================
+
+Submodules
+----------
+
+pandas.tests.scalar.period.test\_asfreq module
+----------------------------------------------
+
+.. automodule:: pandas.tests.scalar.period.test_asfreq
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.scalar.period.test\_period module
+----------------------------------------------
+
+.. automodule:: pandas.tests.scalar.period.test_period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.scalar.period
+   :members:
+   :undoc-members:
+   :show-inheritance:

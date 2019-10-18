@@ -1,0 +1,30 @@
+pandas.tests.config package
+===========================
+
+Submodules
+----------
+
+pandas.tests.config.test\_config module
+---------------------------------------
+
+.. automodule:: pandas.tests.config.test_config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.config.test\_localization module
+---------------------------------------------
+
+.. automodule:: pandas.tests.config.test_localization
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.config
+   :members:
+   :undoc-members:
+   :show-inheritance:

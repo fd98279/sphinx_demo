@@ -1,0 +1,38 @@
+pandas.io.clipboard package
+===========================
+
+Submodules
+----------
+
+pandas.io.clipboard.clipboards module
+-------------------------------------
+
+.. automodule:: pandas.io.clipboard.clipboards
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.clipboard.exceptions module
+-------------------------------------
+
+.. automodule:: pandas.io.clipboard.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.clipboard.windows module
+----------------------------------
+
+.. automodule:: pandas.io.clipboard.windows
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.io.clipboard
+   :members:
+   :undoc-members:
+   :show-inheritance:

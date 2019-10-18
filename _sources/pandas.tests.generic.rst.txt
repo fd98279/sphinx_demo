@@ -1,0 +1,46 @@
+pandas.tests.generic package
+============================
+
+Submodules
+----------
+
+pandas.tests.generic.test\_frame module
+---------------------------------------
+
+.. automodule:: pandas.tests.generic.test_frame
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.generic.test\_generic module
+-----------------------------------------
+
+.. automodule:: pandas.tests.generic.test_generic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.generic.test\_label\_or\_level\_utils module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.generic.test_label_or_level_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.generic.test\_series module
+----------------------------------------
+
+.. automodule:: pandas.tests.generic.test_series
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.generic
+   :members:
+   :undoc-members:
+   :show-inheritance:

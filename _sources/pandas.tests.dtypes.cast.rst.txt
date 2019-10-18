@@ -1,0 +1,94 @@
+pandas.tests.dtypes.cast package
+================================
+
+Submodules
+----------
+
+pandas.tests.dtypes.cast.test\_construct\_from\_scalar module
+-------------------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_construct_from_scalar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_construct\_ndarray module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_construct_ndarray
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_construct\_object\_arr module
+------------------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_construct_object_arr
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_convert\_objects module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_convert_objects
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_downcast module
+----------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_downcast
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_find\_common\_type module
+--------------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_find_common_type
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_infer\_datetimelike module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_infer_datetimelike
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_infer\_dtype module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_infer_dtype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_promote module
+---------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_promote
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.dtypes.cast.test\_upcast module
+--------------------------------------------
+
+.. automodule:: pandas.tests.dtypes.cast.test_upcast
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.dtypes.cast
+   :members:
+   :undoc-members:
+   :show-inheritance:

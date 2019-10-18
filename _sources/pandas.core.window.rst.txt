@@ -1,0 +1,46 @@
+pandas.core.window package
+==========================
+
+Submodules
+----------
+
+pandas.core.window.common module
+--------------------------------
+
+.. automodule:: pandas.core.window.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.window.ewm module
+-----------------------------
+
+.. automodule:: pandas.core.window.ewm
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.window.expanding module
+-----------------------------------
+
+.. automodule:: pandas.core.window.expanding
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.window.rolling module
+---------------------------------
+
+.. automodule:: pandas.core.window.rolling
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.window
+   :members:
+   :undoc-members:
+   :show-inheritance:

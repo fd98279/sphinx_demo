@@ -1,0 +1,86 @@
+pandas.core.dtypes package
+==========================
+
+Submodules
+----------
+
+pandas.core.dtypes.api module
+-----------------------------
+
+.. automodule:: pandas.core.dtypes.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.base module
+------------------------------
+
+.. automodule:: pandas.core.dtypes.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.cast module
+------------------------------
+
+.. automodule:: pandas.core.dtypes.cast
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.common module
+--------------------------------
+
+.. automodule:: pandas.core.dtypes.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.concat module
+--------------------------------
+
+.. automodule:: pandas.core.dtypes.concat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.dtypes module
+--------------------------------
+
+.. automodule:: pandas.core.dtypes.dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.generic module
+---------------------------------
+
+.. automodule:: pandas.core.dtypes.generic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.inference module
+-----------------------------------
+
+.. automodule:: pandas.core.dtypes.inference
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.core.dtypes.missing module
+---------------------------------
+
+.. automodule:: pandas.core.dtypes.missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.core.dtypes
+   :members:
+   :undoc-members:
+   :show-inheritance:

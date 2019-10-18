@@ -1,0 +1,30 @@
+pandas.tests.computation package
+================================
+
+Submodules
+----------
+
+pandas.tests.computation.test\_compat module
+--------------------------------------------
+
+.. automodule:: pandas.tests.computation.test_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.computation.test\_eval module
+------------------------------------------
+
+.. automodule:: pandas.tests.computation.test_eval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.computation
+   :members:
+   :undoc-members:
+   :show-inheritance:

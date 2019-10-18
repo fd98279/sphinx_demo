@@ -1,0 +1,70 @@
+pandas.tests.io.pytables package
+================================
+
+Submodules
+----------
+
+pandas.tests.io.pytables.common module
+--------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.pytables.conftest module
+----------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.pytables.test\_compat module
+--------------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.test_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.pytables.test\_complex module
+---------------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.test_complex
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.pytables.test\_pytables\_missing module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.test_pytables_missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.pytables.test\_store module
+-------------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.test_store
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.io.pytables.test\_timezones module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.io.pytables.test_timezones
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.io.pytables
+   :members:
+   :undoc-members:
+   :show-inheritance:

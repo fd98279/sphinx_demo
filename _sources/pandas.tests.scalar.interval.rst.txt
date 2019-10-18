@@ -1,0 +1,30 @@
+pandas.tests.scalar.interval package
+====================================
+
+Submodules
+----------
+
+pandas.tests.scalar.interval.test\_interval module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.scalar.interval.test_interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.scalar.interval.test\_ops module
+---------------------------------------------
+
+.. automodule:: pandas.tests.scalar.interval.test_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.scalar.interval
+   :members:
+   :undoc-members:
+   :show-inheritance:

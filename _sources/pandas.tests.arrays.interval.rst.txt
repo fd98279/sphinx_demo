@@ -1,0 +1,30 @@
+pandas.tests.arrays.interval package
+====================================
+
+Submodules
+----------
+
+pandas.tests.arrays.interval.test\_interval module
+--------------------------------------------------
+
+.. automodule:: pandas.tests.arrays.interval.test_interval
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.arrays.interval.test\_ops module
+---------------------------------------------
+
+.. automodule:: pandas.tests.arrays.interval.test_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.arrays.interval
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,118 @@
+pandas.tests.indexes.period package
+===================================
+
+Submodules
+----------
+
+pandas.tests.indexes.period.test\_arithmetic module
+---------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_asfreq module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_asfreq
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_astype module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_astype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_construction module
+-----------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_construction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_formats module
+------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_formats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_indexing module
+-------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_indexing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_ops module
+--------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_partial\_slicing module
+---------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_partial_slicing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_period module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_period
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_period\_range module
+------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_period_range
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_scalar\_compat module
+-------------------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_scalar_compat
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_setops module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_setops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.indexes.period.test\_tools module
+----------------------------------------------
+
+.. automodule:: pandas.tests.indexes.period.test_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.indexes.period
+   :members:
+   :undoc-members:
+   :show-inheritance:

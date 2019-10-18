@@ -1,0 +1,162 @@
+pandas.io package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+
+   pandas.io.clipboard
+   pandas.io.excel
+   pandas.io.formats
+   pandas.io.json
+   pandas.io.msgpack
+   pandas.io.sas
+
+Submodules
+----------
+
+pandas.io.api module
+--------------------
+
+.. automodule:: pandas.io.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.clipboards module
+---------------------------
+
+.. automodule:: pandas.io.clipboards
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.common module
+-----------------------
+
+.. automodule:: pandas.io.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.date\_converters module
+---------------------------------
+
+.. automodule:: pandas.io.date_converters
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.feather\_format module
+--------------------------------
+
+.. automodule:: pandas.io.feather_format
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.gbq module
+--------------------
+
+.. automodule:: pandas.io.gbq
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.gcs module
+--------------------
+
+.. automodule:: pandas.io.gcs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.html module
+---------------------
+
+.. automodule:: pandas.io.html
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.packers module
+------------------------
+
+.. automodule:: pandas.io.packers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.parquet module
+------------------------
+
+.. automodule:: pandas.io.parquet
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.parsers module
+------------------------
+
+.. automodule:: pandas.io.parsers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.pickle module
+-----------------------
+
+.. automodule:: pandas.io.pickle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.pytables module
+-------------------------
+
+.. automodule:: pandas.io.pytables
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.s3 module
+-------------------
+
+.. automodule:: pandas.io.s3
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.spss module
+---------------------
+
+.. automodule:: pandas.io.spss
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.sql module
+--------------------
+
+.. automodule:: pandas.io.sql
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.io.stata module
+----------------------
+
+.. automodule:: pandas.io.stata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.io
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,134 @@
+pandas.tests.extension.base package
+===================================
+
+Submodules
+----------
+
+pandas.tests.extension.base.base module
+---------------------------------------
+
+.. automodule:: pandas.tests.extension.base.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.casting module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.casting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.constructors module
+-----------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.constructors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.dtype module
+----------------------------------------
+
+.. automodule:: pandas.tests.extension.base.dtype
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.getitem module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.getitem
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.groupby module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.groupby
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.interface module
+--------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.interface
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.io module
+-------------------------------------
+
+.. automodule:: pandas.tests.extension.base.io
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.methods module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.methods
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.missing module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.missing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.ops module
+--------------------------------------
+
+.. automodule:: pandas.tests.extension.base.ops
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.printing module
+-------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.printing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.reduce module
+-----------------------------------------
+
+.. automodule:: pandas.tests.extension.base.reduce
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.reshaping module
+--------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.reshaping
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pandas.tests.extension.base.setitem module
+------------------------------------------
+
+.. automodule:: pandas.tests.extension.base.setitem
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pandas.tests.extension.base
+   :members:
+   :undoc-members:
+   :show-inheritance:

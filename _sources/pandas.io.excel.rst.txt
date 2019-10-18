@@ -1,0 +1,10 @@
+pandas.io.excel package
+=======================
+
+Module contents
+---------------
+
+.. automodule:: pandas.io.excel
+   :members:
+   :undoc-members:
+   :show-inheritance:
